@@ -1,0 +1,13 @@
+---
+title: "First Entry"
+author: "DK"
+date: "2025-07-24"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
