@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2025-07-24">
+<meta name="author" content="DK">
+<meta name="dcterms.date" content="2025-07-20">
 
-<title>Post With Code – Blogs of 2025</title>
+<title>Return Trip to Bountiful – Blogs of 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -102,6 +68,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -149,11 +125,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Return Trip to Bountiful</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">homeward</div>
               </div>
                   </div>
   </div>
@@ -164,14 +138,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>DK </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 24, 2025</p>
+        <p class="date">July 20, 2025</p>
       </div>
     </div>
     
@@ -190,17 +164,135 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is a post with executable code.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-0e41ca934ac4d3428a5b" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-0e41ca934ac4d3428a5b">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[37.471588,37.456729845412,37.470613],[126.62349,126.7013868782506,126.630677],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["First Meeting Place","Current Meeting Place","The Place I remember Most"],null,null,null,["중앙동","주안","답동"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[37.456729845412,37.471588],"lng":[126.62349,126.7013868782506]},"setView":[[37.456729845412,126.7013868782506],12,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
+<p><strong>손자(孫子):</strong></p>
+<p>Hi Grandpa, came across some digital photos from the year of the Snake (乙巳)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Wasn’t this the period when you were slowing down and transitioning from company funded trips?</p>
+<p>The photos told a different story.</p>
+<p><strong>Older Me:</strong></p>
+<p>That was the year the oldest of your maternal uncles got married, Uncle JH.</p>
+<p>Yes, that was post company sponsored travel days. And I thought of taking things slower but your grandma had other ideas.</p>
+<p>She was invited to the wedding in Korea and scheduled to travel there.</p>
+<p>But I wasn’t – initially.</p>
+<p>Like many things in life, women’s willpower changes the outcome.</p>
+<p>Soon, I was making travel plans and thinking of people and places to meet and visit.</p>
+<p><strong>손자(孫子):</strong></p>
+<p>So how did you go about detailed planning? Without specifics of business trips.</p>
+<p><strong>Older Me:</strong></p>
+<p>We have visited Korea a number of times, but this was the first time only 2 of us traveled.</p>
+<p>At that time we had sold the business that required the attention of grandma. Because I was working at the time, chose a 10-day visit duration. Planned around the wedding.</p>
+<p>That opened up many options and possibilities.</p>
+<p>In addition, a direct flight to Incheon, Korea, had begun just few weeks prior to the visit.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>I had a number of aunts and uncle that were in their 80s and 90s.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/m5.jpeg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Mom, kneeling, back row from right to left, 현애, 현덕, 현신 이모님</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/DSCN0177 2.JPG" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Mom with her friend and her husband, around 2007</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/EPSON019-EDIT (1).jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Author with Dad’s youngest brother</figcaption>
+</figure>
+</div>
+<p>My mother’s younger siblings in Korea were, 90 and 87.<br>
+My father’s youngest brother was 82.<br>
+My mother’s church friend was 90.</p>
+<p>Visiting them was my priority.<br>
+Plus I wanted to visit my hometown 인천(仁川).<br>
+The remaining time would be spent either shopping or visiting sites around the country.</p>
+<p>I didn’t know how we could do all of this in 10 days.</p>
+<p>We decided to visit 서울성전 at the beginning and at the end of our visit.</p>
+<p><strong>손자(孫子):</strong></p>
+<p>I do remember stories about your aunts and uncles.</p>
+<p>I am glad you kept in touch with them over the years.</p>
+<p>How did you get in touch with Grandma’s friends, after she had passed away?</p>
+<p><strong>Older Me:</strong></p>
+<p>We formed a group, LLJK, (이이정강).</p>
+<p>We first met in 인천, during the early days of the Church in the area.</p>
+<p>We had maintained our friendship with the help of the group chat.</p>
+<p>All but <code>L1</code> had moved to the States, when I told <code>L2</code> and J that I would be traveling to Korea, they suggested I get in touch with <code>L1</code>, who lived in 마포 area of 서울</p>
+<p><code>L2</code> warned me that there aren’t many people that would remember me and advised me to visit and enjoy the local food.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/lljk.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Front Row, <code>L1</code>, Author, <code>J</code>. Back Row far right, <code>L2</code></figcaption>
+</figure>
+</div>
+<p><code>L1</code> met me on a day that was 90+ degrees Farenheit and same amount of humidity.</p>
+<p>I wanted to meet my aunt first and then tour the town.</p>
+<p>I wondered why he kept avoiding a lunchtime rendenvous</p>
+<p>As a compromise, we met at 9AM at 동인천역(東仁川駅)</p>
+<p>By 10AM the weather was brutal, I was struggling with the heat and the hilly streets</p>
+<p>As we walked, <code>L1</code> rehearsed the history and people associated with the church in Incheon (인천)</p>
+<p>Started in 중앙동, in a rented, converted 2-story building. Recall, one of the floor had a tatami (畳) floor.</p>
+<p>Then a government property<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> in 답동 was purchased and the existing building was renovated for church use.</p>
+<p>Subsequently a new building was built on site. Eventually, all of the 인천 area wards were combined into a single meeting house in 주안.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/20250712_090641.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>At the former site of the 답동지부, now serves as a dormitory owned by the Catholic Church</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/20250712_100044.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Author with <code>L2</code></figcaption>
+</figure>
+</div>
+<p><strong>손자(孫子):</strong></p>
+<p>Quite a day. You were lucky that <code>L2</code> was available and willing to take you to places. How did it feel to walk around the places of birth and growth?</p>
+<p><strong>Older Me:</strong></p>
+<p>Things had changed dramatically in last 50 years. Except for few places that hadn’t changed, it was like many other places in modern Korea. Vertical growth and no green areas. Almost a feeling of visiting a foreign country.</p>
+<p>Except, the memories of people and experiences. Meetings and activities in the old chapel.</p>
+<p>Friends that still remember who I was and accept me as who I have become.</p>
+<p><strong>손자(孫子):</strong></p>
+<p>So did you visit your old church on Sunday?</p>
+<p><strong>Older Me:</strong></p>
+<p>Yes, I visited 인천1와드. That Ward was composed of the former, 답동, 송도, 주안 Wards</p>
+<p>As we were driving towards, building I related the conversion story of my mother.</p>
+<p>She had studied with the missionaries for nearly 2 years. But she still had some questions. She wrote them down.</p>
+<p>When Harold B. Lee visited Korea and my mother attended the fireside All of mother’s questions were answered by the visiting general authority. Mom’s mind was set to join the church - intellectually</p>
+<p>Then one afternoon, she dreamed a dream.</p>
+<p>In the dream, there were 2 books. She could tell they were the Bible and the Book of Mormon. And a hand appeared and pointing to 2 books and touching them one by one said</p>
+<blockquote class="blockquote">
+<p>These two books are equivalent.</p>
+</blockquote>
+<p>She was ready to be baptized.</p>
+<p><strong>손자(孫子):</strong></p>
+<p>Thanks for sharing that. So did anyone recognize you?</p>
+<p><strong>Older Me:</strong></p>
+<p><code>L2</code> was correct, in a congregation of nearly 150 people only 3 people knew me. <code>L2</code>’s mother. <code>L1</code>’s sister and her husband.</p>
+<p>I wondered if this will be similar to how we will be welcomed into the next life. There will be we may know and recognize but only a few would personally escort us through.</p>
+<p>That person this time was <code>L2</code>’s mom.</p>
+<p>She recounted how she and my mother served in the Stake Primary Presidency, without really understandint the calling.</p>
+<p>Then she recounted my mother’s dream about the hand and 2 books. Almost word for word.</p>
+<p>My testimony was strengthened. I had come home to my and my family’s Bountiful.</p>
+<p>Thank you members of the 인천 area. In particular, thank you Sister 임윤님, Brother 유관종, Sister 이강주. For remembering me, welcoming me, and confirming the faith of my parents.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/Sexagenary_cycle?oldformat=true" class="uri">https://en.wikipedia.org/wiki/Sexagenary_cycle?oldformat=true</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>https://www.ksl.com/article/51329130/80-of-the-world-is-now-within-1-stop-of-salt-lake-city-thanks-to-its-newest-direct-flight<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>A KCIA type agency<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
