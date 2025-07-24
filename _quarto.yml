@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Blogs of 2025"
+  title: "Selected Thoughts"
   navbar:
     right:
       - about.qmd
