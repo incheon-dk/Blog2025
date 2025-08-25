@@ -2,8 +2,7 @@
 title: "Classified and Categorized"
 author: "DK"
 date: "2025-08-25"
-draft: yes
 categories: [traits]
 ---
 
-Thought and events, starting in latter half of 2025
+Check
