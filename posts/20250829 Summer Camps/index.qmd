@@ -1,0 +1,39 @@
+---
+title: "Summer Camps"
+author: "DK"
+date: "2025-08-29"
+draft: yes
+categories: [camps]
+---
+
+> That's the last camp out ever
+
+After a streneous weekend
+
+Having 3 sons, went to my share of campouts
+
+------------------------------------------------------------------------
+
+For an immigrant son, that was our summer vacation
+
+I either participated or as participant's father
+
+```{r}
+library(leaflet)
+
+leaflet() %>% addTiles() %>% addMarkers(lng = -79.466412641026, lat = 37.966739574143794, popup = "Goshen Scout Reservation")
+
+
+```
+
+The camp caretaker said the Maple Dell is now used by Cub Scouts. Not much use.
+
+Much memories created. Fathers adjusting their obligations and checking their commitments to be with their sons.
+
+Real wealth of a nation. Fathers spending time with their sons. Adults sacrificing their time to be with young men for a whole week.
+
+```{r}
+library(leaflet)
+
+leaflet() %>% addTiles() %>% addMarkers(lng = -111.69274405731123, lat = 39.97265970612137, popup = "Camp Maple Dell, BSA")
+```
