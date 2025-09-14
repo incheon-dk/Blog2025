@@ -1,0 +1,821 @@
+---
+title: "Notes"
+format: html
+editor: visual
+---
+
+<https://www.irs.gov/charities-non-profits/stay-exempt/applying-for-section-501c3-status-course>
+
+## Benefits
+
+Exemption from federal income tax
+
+Tax-deductible contributions
+
+## Responsibilities
+
+-   conduct exempt purpose activities
+
+-   record keeping
+
+    -   Form 990
+
+-   annual filings
+
+-   public disclosure
+
+    -   Form 990
+
+    -   Approved application for exemption
+
+    -   Letter from IRS ruling that your organization has exempt status
+
+------------------------------------------------------------------------
+
+Got it 👍 — here’s a clear **overview of the steps and benefits** of donating assets (like automobiles or office equipment) to help establish a **Private Foundation** under IRS §501(c)(3):
+
+------------------------------------------------------------------------
+
+# 🚗📦 Donating Assets to Start a Private Foundation
+
+## **1. Steps to Donate Assets**
+
+1.  
+
+2.  **Form the Foundation**
+
+    -   
+
+    -   Incorporate as a nonprofit corporation in your state (usually via Secretary of State).
+
+    -   
+
+    -   Adopt bylaws and appoint a board of directors.
+
+    -   
+
+    -   Apply for IRS recognition of tax-exempt status (Form 1023).
+
+    -   
+
+3.  
+
+4.  **Transfer Ownership of Assets**
+
+    -   
+
+    -   Automobiles: Title must be transferred to the foundation’s name at the DMV.
+
+    -   
+
+    -   Office equipment (computers, furniture, printers): Use a **Bill of Sale** or **Donation Agreement** transferring ownership to the foundation.
+
+    -   
+
+    -   Keep detailed records (serial numbers, VINs, condition reports).
+
+    -   
+
+5.  
+
+6.  **Value the Assets**
+
+    -   
+
+    -   Cars: Use **IRS fair market value guides** (Kelley Blue Book, Edmunds) to determine donation value.
+
+    -   
+
+    -   Equipment: Appraisal or fair market estimate (Craigslist/eBay comps, or a professional appraisal if large).
+
+    -   
+
+    -   Required: IRS Form **8283** (Noncash Charitable Contributions) if the donation is over \$500; appraisal required if over \$5,000.
+
+    -   
+
+7.  
+
+8.  **Record the Contribution**
+
+    -   
+
+    -   Foundation records the donation as an **in-kind contribution** at fair market value.
+
+    -   
+
+    -   Donor receives a **donation receipt** issued by the foundation.
+
+    -   
+
+9.  
+
+10. **IRS Filing**
+
+    -   
+
+    -   Donor claims the deduction on **Schedule A (Form 1040)**.
+
+    -   
+
+    -   Foundation records the contribution on its annual **Form 990-PF**.
+
+    -   
+
+11. 
+
+------------------------------------------------------------------------
+
+## **2. Benefits for the Donor**
+
+✅ **Immediate Charitable Deduction**
+
+-   
+
+-   Donor can deduct the fair market value of the assets (subject to IRS limits — usually up to 30% of AGI for private foundation gifts).
+
+-   
+
+✅ **Avoid Capital Gains Tax**
+
+-   
+
+-   If the asset has appreciated (e.g., office equipment purchased cheaply but still valuable), donor avoids capital gains by donating instead of selling.
+
+-   
+
+✅ **Control Over Philanthropy**
+
+-   
+
+-   Unlike giving directly to a public charity, donating to your own foundation allows you (and family/board) to decide how funds and assets are used.
+
+-   
+
+✅ **Legacy Building**
+
+-   
+
+-   The foundation becomes a permanent vehicle for charitable giving in your family’s or business’s name.
+
+-   
+
+------------------------------------------------------------------------
+
+## **3. Benefits for the Foundation**
+
+✅ **Seed Assets**
+
+-   
+
+-   Automobiles can be used for foundation operations (transporting materials, outreach) or sold to raise cash.
+
+-   
+
+-   Office equipment reduces startup costs for administration.
+
+-   
+
+✅ **Tax-Free Growth**
+
+-   
+
+-   Once assets are sold, the foundation can reinvest proceeds tax-free (except small excise taxes).
+
+-   
+
+✅ **Operational Independence**
+
+-   
+
+-   The foundation starts with physical assets and potentially liquid cash from asset sales, giving it capacity to begin grantmaking.
+
+-   
+
+------------------------------------------------------------------------
+
+## **4. Example: Donating Automobiles & Equipment**
+
+-   
+
+-   You transfer a \$15,000 car and \$10,000 worth of office equipment to your new private foundation.
+
+-   
+
+-   You receive a **\$25,000 charitable deduction** on your personal taxes (subject to 30% AGI limit).
+
+-   
+
+-   The foundation can use the car for operations and the office equipment for administration — or sell them to create a **\$25,000 starting fund** for grants.
+
+-   
+
+------------------------------------------------------------------------
+
+⚠️ **Important Notes**
+
+-   
+
+-   The foundation must use or liquidate the assets for **charitable purposes only**.
+
+-   
+
+-   Donor (or family) can’t use the car/equipment for personal benefit after donation (that’s **self-dealing**, strictly prohibited).
+
+-   
+
+-   Large noncash donations (\> \$5,000) usually require a **qualified appraisal** to substantiate deduction.
+
+-   
+
+------------------------------------------------------------------------
+
+👉 Do you want me to create a **step-by-step checklist template** (like a one-pager you can follow) specifically for “donating non-cash assets to start a private foundation”? That could be useful as a practical guide.
+
+------------------------------------------------------------------------
+
+Perfect 👍 Here’s a **step-by-step checklist template** you can follow for **donating non-cash assets (like automobiles and office equipment) to start a private foundation**.
+
+------------------------------------------------------------------------
+
+# ✅ Checklist: Donating Assets to Launch a Private Foundation
+
+## **Phase 1 – Form the Foundation**
+
+1.  
+
+2.  [ ] Incorporate nonprofit with your state (Articles of Incorporation).
+
+3.  
+
+4.  [ ] Draft bylaws and appoint board of directors.
+
+5.  
+
+6.  [ ] Apply for IRS 501(c)(3) status (Form 1023).
+
+7.  
+
+8.  [ ] Obtain EIN (Employer Identification Number) from IRS.
+
+9.  
+
+10. [ ] Open a bank account in the foundation’s name.
+
+11. 
+
+------------------------------------------------------------------------
+
+## **Phase 2 – Prepare the Asset Donation**
+
+1.  
+
+2.  [ ] Identify assets to donate (automobiles, office equipment, etc.).
+
+3.  
+
+4.  [ ] Document fair market value:
+
+    -   
+
+    -   Cars → Kelley Blue Book / Edmunds valuation.
+
+    -   
+
+    -   Equipment → Craigslist/eBay comps or professional appraisal.
+
+    -   
+
+    -   Assets \> \$5,000 → get **qualified appraisal**.
+
+    -   
+
+5.  
+
+6.  [ ] Draft a **Donation Agreement** or **Bill of Sale** transferring ownership.
+
+7.  
+
+8.  [ ] Retain all supporting records (receipts, serial numbers, VINs, photos).
+
+9.  
+
+------------------------------------------------------------------------
+
+## **Phase 3 – Transfer Ownership**
+
+1.  
+
+2.  [ ] For **automobiles**: transfer title at DMV into the foundation’s name.
+
+3.  
+
+4.  [ ] For **equipment**: update asset ownership records and tag items as property of the foundation.
+
+5.  
+
+6.  [ ] Provide a written receipt/acknowledgment from the foundation to the donor (required for IRS).
+
+7.  
+
+------------------------------------------------------------------------
+
+## **Phase 4 – IRS & Tax Compliance**
+
+1.  
+
+2.  [ ] Donor files **IRS Form 8283** if total donation \> \$500.
+
+3.  
+
+4.  [ ] If \> \$5,000 → donor includes appraisal + donee signature on Form 8283.
+
+5.  
+
+6.  [ ] Donor deducts contribution on **Schedule A, Form 1040** (subject to 30% of AGI limitation for private foundations).
+
+7.  
+
+8.  [ ] Foundation reports the donation on **Form 990-PF** annually.
+
+9.  
+
+------------------------------------------------------------------------
+
+## **Phase 5 – Foundation Operations**
+
+1.  
+
+2.  [ ] Decide: **Use vs. Sell** donated assets.
+
+    -   
+
+    -   Use → keep car/equipment for charitable operations.
+
+    -   
+
+    -   Sell → liquidate and convert to cash for grantmaking.
+
+    -   
+
+3.  
+
+4.  [ ] Deposit proceeds in foundation account if sold.
+
+5.  
+
+6.  [ ] Ensure assets are used **exclusively for charitable purposes** (to avoid IRS “self-dealing” violations).
+
+7.  
+
+------------------------------------------------------------------------
+
+# 🎯 Benefits Recap
+
+-   
+
+-   ✅ Donor receives immediate charitable deduction.
+
+-   
+
+-   ✅ Donor avoids capital gains tax on appreciated property.
+
+-   
+
+-   ✅ Foundation gains seed assets or starting funds.
+
+-   
+
+-   ✅ Builds long-term family legacy of charitable giving.
+
+-   
+
+------------------------------------------------------------------------
+
+👉 Would you like me to also create a **fillable PDF version of this checklist** so you (or anyone starting a foundation) can literally check boxes as they complete each step?
+
+------------------------------------------------------------------------
+
+Perfect 👍 Here’s a **step-by-step checklist template** you can follow for **donating non-cash assets (like automobiles and office equipment) to start a private foundation**.
+
+------------------------------------------------------------------------
+
+# ✅ Checklist: Donating Assets to Launch a Private Foundation
+
+## **Phase 1 – Form the Foundation**
+
+1.  
+
+2.  [ ] Incorporate nonprofit with your state (Articles of Incorporation).
+
+3.  
+
+4.  [ ] Draft bylaws and appoint board of directors.
+
+5.  
+
+6.  [ ] Apply for IRS 501(c)(3) status (Form 1023).
+
+7.  
+
+8.  [ ] Obtain EIN (Employer Identification Number) from IRS.
+
+9.  
+
+10. [ ] Open a bank account in the foundation’s name.
+
+11. 
+
+------------------------------------------------------------------------
+
+## **Phase 2 – Prepare the Asset Donation**
+
+1.  
+
+2.  [ ] Identify assets to donate (automobiles, office equipment, etc.).
+
+3.  
+
+4.  [ ] Document fair market value:
+
+    -   
+
+    -   Cars → Kelley Blue Book / Edmunds valuation.
+
+    -   
+
+    -   Equipment → Craigslist/eBay comps or professional appraisal.
+
+    -   
+
+    -   Assets \> \$5,000 → get **qualified appraisal**.
+
+    -   
+
+5.  
+
+6.  [ ] Draft a **Donation Agreement** or **Bill of Sale** transferring ownership.
+
+7.  
+
+8.  [ ] Retain all supporting records (receipts, serial numbers, VINs, photos).
+
+9.  
+
+------------------------------------------------------------------------
+
+## **Phase 3 – Transfer Ownership**
+
+1.  
+
+2.  [ ] For **automobiles**: transfer title at DMV into the foundation’s name.
+
+3.  
+
+4.  [ ] For **equipment**: update asset ownership records and tag items as property of the foundation.
+
+5.  
+
+6.  [ ] Provide a written receipt/acknowledgment from the foundation to the donor (required for IRS).
+
+7.  
+
+------------------------------------------------------------------------
+
+## **Phase 4 – IRS & Tax Compliance**
+
+1.  
+
+2.  [ ] Donor files **IRS Form 8283** if total donation \> \$500.
+
+3.  
+
+4.  [ ] If \> \$5,000 → donor includes appraisal + donee signature on Form 8283.
+
+5.  
+
+6.  [ ] Donor deducts contribution on **Schedule A, Form 1040** (subject to 30% of AGI limitation for private foundations).
+
+7.  
+
+8.  [ ] Foundation reports the donation on **Form 990-PF** annually.
+
+9.  
+
+------------------------------------------------------------------------
+
+## **Phase 5 – Foundation Operations**
+
+1.  
+
+2.  [ ] Decide: **Use vs. Sell** donated assets.
+
+    -   
+
+    -   Use → keep car/equipment for charitable operations.
+
+    -   
+
+    -   Sell → liquidate and convert to cash for grantmaking.
+
+    -   
+
+3.  
+
+4.  [ ] Deposit proceeds in foundation account if sold.
+
+5.  
+
+6.  [ ] Ensure assets are used **exclusively for charitable purposes** (to avoid IRS “self-dealing” violations).
+
+7.  
+
+------------------------------------------------------------------------
+
+# 🎯 Benefits Recap
+
+-   
+
+-   ✅ Donor receives immediate charitable deduction.
+
+-   
+
+-   ✅ Donor avoids capital gains tax on appreciated property.
+
+-   
+
+-   ✅ Foundation gains seed assets or starting funds.
+
+-   
+
+-   ✅ Builds long-term family legacy of charitable giving.
+
+-   
+
+------------------------------------------------------------------------
+
+👉 Would you like me to also create a **fillable PDF version of this checklist** so you (or anyone starting a foundation) can literally check boxes as they complete each step?
+
+------------------------------------------------------------------------
+
+## Organizational vs Operational Tests
+
+------------------------------------------------------------------------
+
+## Public Charity vs. Private Foundation
+
+Great question! Here’s a clear breakdown of the **difference between a Public Charity and a Private Foundation** under IRS §501(c)(3):
+
+------------------------------------------------------------------------
+
+## **1. Common Ground**
+
+Both **Public Charities** and **Private Foundations** are nonprofit organizations recognized by the IRS under **501(c)(3)**. That means they are:
+
+-   
+
+-   Tax-exempt on income related to their charitable purpose.
+
+-   
+
+-   Eligible to receive tax-deductible donations.
+
+-   
+
+-   Organized for purposes like religion, education, scientific research, arts, or relief of the poor.
+
+-   
+
+------------------------------------------------------------------------
+
+## **2. Public Charity**
+
+**Definition:**
+
+-   
+
+-   A **public charity** is a 501(c)(3) that receives broad public support (from many donors, government grants, or program revenue).
+
+-   
+
+**Key Features:**
+
+-   
+
+-   **Funding source:** Must get a significant portion of income (at least 1/3 in many cases) from the general public, other charities, or government.
+
+-   
+
+-   **Examples:** Churches, schools, hospitals, universities, museums, food banks.
+
+-   
+
+-   **Control:** Usually governed by a diverse board, not a small group or family.
+
+-   
+
+-   **IRS Oversight:** Generally lighter than private foundations.
+
+-   
+
+-   **Donor Tax Deduction:** Donors can deduct up to **60% of AGI** (adjusted gross income) for cash gifts.
+
+-   
+
+------------------------------------------------------------------------
+
+## **3. Private Foundation**
+
+**Definition:**
+
+-   
+
+-   A **private foundation** is a 501(c)(3) that usually has a single major funding source (like a family, individual, or corporation).
+
+-   
+
+**Key Features:**
+
+-   
+
+-   **Funding source:** Funded primarily by one person, family, or company, not broad public support.
+
+-   
+
+-   **Examples:** Gates Foundation, Ford Foundation, family foundations.
+
+-   
+
+-   **Control:** Often run by its founders, family members, or a small group.
+
+-   
+
+-   **IRS Oversight:** Heavier reporting and operating restrictions.
+
+-   
+
+-   **Payout Requirement:** Must distribute **at least 5% of assets annually** for charitable purposes.
+
+-   
+
+-   **Excise Tax:** Pays a small excise tax on investment income.
+
+-   
+
+-   **Donor Tax Deduction:** Donors can deduct up to **30% of AGI** for cash gifts.
+
+-   
+
+------------------------------------------------------------------------
+
+## **4. Quick Comparison**
+
+|     |                              |     |                                         |     |                                     |     |
+|-----|------------------------------|-----|-----------------------------------------|-----|-------------------------------------|-----|
+|     |                              |     |                                         |     |                                     |     |
+|     | Feature                      |     | Public Charity                          |     | Private Foundation                  |     |
+|     |                              |     |                                         |     |                                     |     |
+|     | Funding Source               |     | Broad support (many donors, gov grants) |     | Single/few sources (family, corp)   |     |
+|     |                              |     |                                         |     |                                     |     |
+|     | Control                      |     | Diverse board                           |     | Small group or family               |     |
+|     |                              |     |                                         |     |                                     |     |
+|     | IRS Oversight                |     | Lighter                                 |     | Stricter (excise tax, payout rules) |     |
+|     |                              |     |                                         |     |                                     |     |
+|     | Donor Deduction Limit (Cash) |     | Up to 60% of AGI                        |     | Up to 30% of AGI                    |     |
+|     |                              |     |                                         |     |                                     |     |
+|     | Annual Payout Requirement    |     | None                                    |     | 5% of assets                        |     |
+|     |                              |     |                                         |     |                                     |     |
+
+------------------------------------------------------------------------
+
+✅ **In plain terms:**
+
+-   
+
+-   If your nonprofit will be supported by many donors and open to broad public involvement → it’s a **Public Charity**.
+
+-   
+
+-   If it’s funded mainly by one person/family/corporation and controlled by them → it’s a **Private Foundation**.
+
+-   
+
+------------------------------------------------------------------------
+
+Would you like me to also explain **how the IRS decides whether a new nonprofit is classified as a public charity or private foundation by default** (hint: new 501(c)(3)s are usually private foundations unless they qualify for public charity status)?
+
+Perfect — let’s go into how the IRS actually classifies a new **501(c)(3)** organization at the start:
+
+------------------------------------------------------------------------
+
+## **Default Rule**
+
+-   
+
+-   When you apply for **IRS 501(c)(3) recognition** (Form 1023), the IRS **by default** classifies you as a **Private Foundation**.
+
+-   
+
+-   Why? Because it’s easier to assume one person/family is funding you until you prove otherwise.
+
+-   
+
+------------------------------------------------------------------------
+
+## **How to Qualify as a Public Charity**
+
+To be recognized as a **Public Charity** instead of a Private Foundation, you must meet one of the following tests:
+
+### **1. Institutional Public Charities (Automatic Public Charity)**
+
+Some organizations are *always* considered public charities, regardless of funding:
+
+-   
+
+-   Churches, synagogues, temples, mosques
+
+-   
+
+-   Schools, colleges, universities
+
+-   
+
+-   Hospitals and medical research organizations
+
+-   
+
+-   Governmental units (when acting for charitable purposes)
+
+-   
+
+------------------------------------------------------------------------
+
+### **2. Public Support Test**
+
+For most other nonprofits, the IRS checks whether you have **broad public support**:
+
+-   
+
+-   **One-Third Support Test**:\
+
+    At least **33⅓% of your total support** must come from the public (individuals, government grants, other charities).
+
+-   
+
+-   **Facts and Circumstances Test** (10% Test):\
+
+    If you get **at least 10% public support** and can show you are actively seeking broad support (fundraising, grants, memberships), you may still qualify as a public charity.
+
+-   
+
+------------------------------------------------------------------------
+
+### **3. Supporting Organizations**
+
+Some nonprofits qualify as **supporting organizations** if they are organized and operated exclusively to support one or more existing public charities (e.g., a “friends of the library” group).
+
+------------------------------------------------------------------------
+
+## **What Happens if You Don’t Qualify?**
+
+-   
+
+-   If you can’t show enough public support → the IRS will classify you as a **Private Foundation**.
+
+-   
+
+-   But: You can later **convert to public charity status** if your donor base broadens.
+
+-   
+
+------------------------------------------------------------------------
+
+## **Key Takeaway**
+
+-   
+
+-   **All new 501(c)(3)s start as private foundations by default.**
+
+-   
+
+-   To be a **public charity**, you must either:
+
+    1.  
+
+    2.  Be in an automatically qualified category (church, school, hospital, etc.), OR
+
+    3.  
+
+    4.  Pass the public support test (show enough donors/grants).
+
+    5.  
+
+-   
+
+------------------------------------------------------------------------
+
+👉 Would you like me to create a **flowchart** that shows how the IRS decides between *Public Charity vs. Private Foundation* step by step? It might make it crystal clear for quick reference.
+
+------------------------------------------------------------------------
+
+## Form 1023

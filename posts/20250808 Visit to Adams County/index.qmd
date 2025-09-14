@@ -14,21 +14,56 @@ An invitation had arrived 16 days earlier, with these words,
 
 ------------------------------------------------------------------------
 
-The oration, given by eminent orator of his day, Edward Everett.
+The oration, was given by eminent orator of his day, Edward Everett.
 
 Everett was one of the great American orators of the antebellum and Civil War eras. He was the featured orator at the dedication ceremony of the Gettysburg National Cemetery in 1863, where he spoke for over two hours—immediately before President Abraham Lincoln delivered his famous two-minute Gettysburg Address.
 
-On the morning of the 18th of November, The party would leave White House to board the train.
+## The Road to Gettysburg
 
-White House, 38.89781879743938, -77.03715472536445
+On the morning of the 18th of November, the party would leave White House to board the train.
 
-about 2 miles away.
+```{r}
+#| echo: false
+library(leaflet)
+
+# Example data: replace/add as needed
+points <- data.frame(
+  name = c("White House", "New Jersey Avenue Station"),
+  lat  = c(38.89781879743938, 38.89363178018314),
+  lon  = c(-77.03715472536445, -77.0105374915803)
+)
+
+leaflet(points) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addCircleMarkers(~lon, ~lat, label = ~name, popup = ~name)
+```
+
+
+First station, the New Jersey Avenue Station, about 2 miles away from the White House.
 
 Boarding the station at The New Jersey Ave Station
 
 38.89363178018314, -77.0105374915803
 
 Camden Station
+
+The message only a person that has experienced and with authority to represent the nation, that was the prerogative of the executive of a nation.
+
+```{r}
+#| echo: false
+library(leaflet)
+
+# Example data: replace/add as needed
+points <- data.frame(
+  name = c("Camden Station", "Calvert Street Station"),
+  lat  = c(39.28381004647885, 39.29566603009813),
+  lon  = c(-76.62004695000283, -76.61226893096497)
+)
+
+leaflet(points) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addCircleMarkers(~lon, ~lat, label = ~name, popup = ~name)
+```
 
 39.28381004647885, -76.62004695000283
 
@@ -38,17 +73,122 @@ In 1863, President Abraham Lincoln passed through Calvert Station on his way to 
 
 https://en.wikipedia.org/wiki/Calvert_Street_Station?oldformat=true
 
-Hanover Junction
+## Modern Day Travel
 
-39.84404340917309, -76.77657543334443
+Gettysburg, PA is about 85 miles (137 km) north of the White House in Washington, D.C.
 
-David Willis Home
+By car today: ~1 hour 45 minutes to 2 hours, depending on traffic.
 
-39.830938814091304, -77.23053951744471
+In 1863 by train: Lincoln’s trip took about 6 hours, because he had to make train transfers in Baltimore and Hanover Junction.
 
-The Rostrum at the Cemetery
+```{r}
+#| echo: false
+library(leaflet)
 
-39.81804955506688, -77.23159607327676
+# Example data: replace/add as needed
+points <- data.frame(
+  name = c("Hanover Junction", "Seoul", "Tokyo"),
+  lat  = c(39.84404340917309, 39.830938814091304, 39.81804955506688),
+  lon  = c(-76.77657543334443, -77.23053951744471, -77.23159607327676)
+)
+
+leaflet(points) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addCircleMarkers(~lon, ~lat, label = ~name, popup = ~name)
+```
+
+
+---
+
+Now we can make the same journey in about an hour.
+
+Whether that is enough time to review the message, not sure.
+
+Lincoln was uniquely qualified to deliver a few appropriate remarks
+
+Everett's speech was the AI speech of his day, to be consumed and forgotten
+The crowd was informed but not experienced, therefore soon forgotten
+Abraham's speech was from the heart, to be understood and kept, meant for the ages
+experienced hardships of the war firsthand, thereofre able to state its essence and how it relates to the founding of the nation.
+
+---
+
+I feel, and the Spirit seems to accord, that the most important doctrine I can declare, and the most powerful testimony I can bear, is of the atoning sacrifice of the Lord Jesus Christ.
+
+In speaking of these wondrous things I shall use my own words, though you may think they are the words of scripture, words spoken by other Apostles and prophets.
+
+True it is they were first proclaimed by others, but they are now mine, for the Holy Spirit of God has borne witness to me that they are true, and it is now as though the Lord had revealed them to me in the first instance. I have thereby heard his voice and know his word.
+
+- Bruce R McConkie, 6 April 1985
+
+---
+
+I believe in Christ; he is my King!
+With all my heart to him I’ll sing;
+I’ll raise my voice in praise and joy,
+In grand amens my tongue employ.
+I believe in Christ; he is God’s Son;
+On earth to dwell his soul did come;
+He healed the sick; the dead he raised.
+Good works were his; his name be praised.
+
+I believe in Christ; oh, blessed name,
+As Mary’s Son he came to reign
+’Mid mortal men, his earthly kin,
+To save them from the woes of sin.
+I believe in Christ, who marked the path,
+Who did gain all his Father hath,
+Who said to men: “Come, follow me,
+That ye, my friends, with God may be.”
+
+I believe in Christ—my Lord, my God!
+My feet he plants on gospel sod;
+I’ll worship him with all my might;
+He is the source of truth and light.
+I believe in Christ; he ransoms me.
+From Satan’s grasp he sets me free,
+And I shall live with joy and love
+In his eternal courts above.
+
+I believe in Christ; he stands supreme!
+From him I’ll gain my fondest dream;
+And while I strive through grief and pain,
+His voice is heard: “Ye shall obtain.”
+I believe in Christ, so come what may,
+With him I’ll stand in that great day
+When on this earth he comes again
+To rule among the sons of men. [2]
+---
+
+> “The Lord will never lead us astray and He is always with us.  He has been with me during my trial and diagnosis of cancer.  I know he will not abandon me.  He has shown me tender mercies with messages from friends of years past.  I have felt my savior’s love.  I know He is real.  He exists.  And I know He loves me. He is Jesus the Christ.  He is my loving Lord and Savior, even redeemer of all mankind.  I look to Him and I shall live again.  I know Him.  I love Him. In the sacred name of Jesus Christ, I testify of Him and pray.  Amen”
+
+- Spencer Irvine, 21 September 2023
+
+In 110 words
+
+> Heaven does not send forth the Spirit to sustain weak doctrines. It is the power of the doctrine that attracts the power of the Spirit. Christ, Elder McConkie declared, died to preserve the truth. “All of the terms and conditions of the Father’s eternal plan of salvation became operative,” he testified, “in and through Christ’s atoning sacrifice.” Because He died, we have a plan of salvation! Because He died, our righteous deeds will rise with us in the Resurrection. Because He died, we, by obedience to the laws and ordinances of the gospel, may lay claim to a fulness of all that the Father has.
+
+- Joseph Fielding McConkie, Easter 2006
+
+
+
+---
+
+Great question — Lincoln’s trip to Gettysburg for the dedication of the Soldiers’ National Cemetery in November 1863 is very well documented.
+
+Departure: President Lincoln left Washington, D.C. on November 18, 1863, at about noon.
+
+Mode of travel: He traveled by special train from the Baltimore & Ohio Railroad depot (near today’s Capitol Hill).
+
+Route: Washington → Baltimore → Hanover Junction, Pennsylvania → Gettysburg. At Hanover Junction, the train transferred to the Hanover Branch Railroad to reach Gettysburg.
+
+Arrival: Lincoln arrived in Gettysburg early evening on November 18 (around 6 p.m.).
+
+👉 That means the trip took roughly 6 hours from departure in Washington to arrival in Gettysburg.
+
+The next morning, November 19, 1863, he delivered the Gettysburg Address at the cemetery dedication.
+
+
 
 ------------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 ---
-title: "Homogeneity"
+title: "Homogeniety"
 author: "DK"
 date: "2025-08-26"
 draft: yes
@@ -14,7 +14,7 @@ There are a handful of people from other regions of the world.
 
 Namely Asia, Latin America and Africa.
 
----
+------------------------------------------------------------------------
 
 When we first moved into the area, a `C` family from Taiwan greeted us.
 
@@ -30,7 +30,7 @@ We tried to explain that it was the `C` family from Taiwan.
 
 After a while we stopped explaining and accepted their appreciation
 
----
+------------------------------------------------------------------------
 
 Years passed and a number of Asian families have come and gone.
 
@@ -42,7 +42,7 @@ A member of the congregation said that he had 2 Korean families mixed.
 
 He often asked me how the overseas trip was when I hadn't traveled.
 
----
+------------------------------------------------------------------------
 
 Once I said,
 
@@ -50,4 +50,4 @@ Once I said,
 
 The listener recognized the humor and we had a good laugh together.
 
----
+------------------------------------------------------------------------
