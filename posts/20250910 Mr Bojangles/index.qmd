@@ -61,7 +61,7 @@ Mr. Bojangles\
 Mr. Bojangles\
 Dance
 
----
+------------------------------------------------------------------------
 
 I beg your pardon, mama, what did you say?\
 My mind was drifting off on Martinique Bay\
@@ -103,7 +103,7 @@ Sandy beaches, drinking rum every night\
 We got no money, mama, but we can go\
 We'll split the difference, go to Coconut Grove
 
----
+------------------------------------------------------------------------
 
 If there's one thing in my life that's missing\
 It's the time that I spend alone\
