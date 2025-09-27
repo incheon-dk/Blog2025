@@ -8,7 +8,7 @@ library(magick)
 getwd()
 
 # Path to your PDF
-pdf_file <- "100N_drawings.pdf"
+pdf_file <- "iPod-Hi-Fi2.pdf"
 pdf_file
 # Convert all pages to PNG
 png_files <- pdf_convert(pdf_file,
