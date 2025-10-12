@@ -1,0 +1,127 @@
+---
+title: "Nothing New"
+author: "DK"
+date: "2025-09-25"
+draft: yes
+categories: [remembrance]
+---
+
+A fellow hiker, Professor H received his PhD from Brandeis University in ancient Near Eastern studies, specializing in Babylonia.^[https://byustudies.byu.edu/author/paul-y-hoskisson]
+
+His favorite quote is from Ecclesiastes 1:9. Which AI summarizes as,
+
+> "Nothing is new under the sun" is a proverb from the Bible's Book of Ecclesiastes. It means that **the fundamental human experiences, problems, and cycles of life are not new, even if they appear different or have modern forms**. The phrase emphasizes that history and human nature tend to repeat themselves, making the core challenges of existence universal rather than novel. 
+
+Met him on the trail along with Professor G, whose research interests include the history and theory of rhetoric, postmodernism, and Renaissance rhetoric, education, and humanism.^[https://www.dialoguejournal.com/dialogue-journal-authors/grant-boswell-2/]
+
+I challenged him, 
+What about AI?  
+Certainly it qualifies as a new thing "under the sun".
+
+He answered,
+In Babylonian era, kings had their own AI
+They were called his advisers.
+
+---
+
+First came across a written form of Shiji, or Historical Records by Xima Qian in 2005^[https://www.wikiwand.com/en/articles/Shiji].
+
+The text was in Korean, but the book was written by a Japanese person^[https://www.wikiwand.com/en/articles/Mitsuteru_Yokoyama].
+
+These stories occurred in China, during the period that roughly parallel the Neo-Babylonian (7th–6th century BCE) till 2nd Century before common era.
+
+AI summarizes 3 recurring themes of the Records of the Grand Historian as,
+
+1. The Mandate of Heaven (天命 / 天意) and Legitimacy of Rule
+2. Rise and Fall: The Cyclical Nature of Power (盛衰, 興亡)
+3. Individual Agency and Moral Choice (人事, 節義)
+
+However, the reading of the version presented in Korean yields following impressions.
+
+1. Justice and mercy are ever present, the historical records and memories of the people will ultimately judge.
+2. An understanding of the written records are good, far more beneficial is the correct and timely use or adaption of that knowledge.
+3. Unjust rulers and unwise leaders can lead to sufferings and destructions.
+
+---
+
+Chat GPT version 4.0 can transform this text^[https://ctext.org/shiji/wu-di-ben-ji]
+
+軒轅之時，神農氏世衰。諸侯相侵伐，暴虐百姓，而神農氏弗能征。於是軒轅乃習用干戈，以征不享，諸侯咸來賓從。而蚩尤最為暴，莫能伐。炎帝欲侵陵諸侯，諸侯咸歸軒轅。軒轅乃修德振兵，治五氣，藝五種，撫萬民，度四方，教熊羆貔貅貙虎，以與炎帝戰於阪泉之野。三戰然後得其志。蚩尤作亂，不用帝命。於是黃帝乃徵師諸侯，與蚩尤戰於涿鹿之野，遂禽殺蚩尤。而諸侯咸尊軒轅為天子，代神農氏，是為黃帝。天下有不順者，黃帝從而征之，平者去之，披山通道，未嘗寧居
+
+Into,
+
+In the time of Xuanyuan (軒轅, Xuān Yuán), the house of Shennong (神農, Shén Nóng) was in decline. The feudal lords fought among themselves, invading each other’s lands and oppressing the people, while Shennong’s line could no longer command or restrain them.
+
+So Xuanyuan began to train in the arts of war, raising arms against those who refused submission. The lords, one by one, came to acknowledge and follow him.
+
+Yet among them was Chiyou (蚩尤, Chī Yóu), the most violent of all, whom no one could defeat. At the same time, the Yan Emperor (炎帝, Yán Dì) sought to overrun the lords, but they all turned instead to Xuanyuan for protection.
+
+Thus Xuanyuan cultivated virtue and strengthened his forces. He harmonized the five energies, mastered the five kinds of crops, cared for the people, measured the four corners of the land, and even trained bears, leopards, tigers, and wolves to march at his side. With these he fought the Yan Emperor in the wilds of Banquan (阪泉, Bǎn Quán). Only after three battles did he prevail.
+
+Then Chiyou rose in rebellion, defying the mandate of the ruler. Xuanyuan called upon the lords, and together they fought Chiyou at Zhuolu (涿鹿, Zhuō Lù), where he finally captured and killed him.
+
+The lords all honored Xuanyuan as Son of Heaven (天子, Tiānzǐ), and he replaced the Shennong line. From then on he was known as the Yellow Emperor (黃帝, Huáng Dì).
+
+Wherever there was unrest in the world, the Yellow Emperor marched to quell it; when peace returned, he withdrew. He opened up mountains and cleared roads, never resting in one place for long.
+
+Or in the style and cadence of the Old Testament
+
+And it came to pass in the days of Xuanyuan (軒轅, Xuān Yuán), that the house of Shennong (神農, Shén Nóng) grew feeble.
+The princes of the earth rose up one against another; they seized each other’s lands, and they oppressed the people sore. And the house of Shennong could not restrain them.
+
+Then Xuanyuan girded himself with arms, and he learned the ways of battle.
+And he smote the proud who would not yield, and many princes came and bowed before him.
+
+But there was one, Chiyou (蚩尤, Chī Yóu), mightiest in violence, whom no man could subdue.
+And lo, the Yan Emperor (炎帝, Yán Dì) lifted himself to oppress the princes also. Then the princes turned their faces from him, and they came unto Xuanyuan.
+
+So Xuanyuan walked in virtue, and he made strong his hosts.
+He set in order the five energies; he taught the sowing of the five grains; he measured the bounds of the four quarters of the land.
+And he tamed the beasts of the field—bear and leopard, tiger and wolf—to march in his armies.
+
+And he went forth against the Yan Emperor, and they strove at Banquan (阪泉, Bǎn Quán). Three times they fought, and at the last Xuanyuan prevailed.
+
+But Chiyou hardened his heart, and he rebelled, and he obeyed not the command of the Son of Heaven.
+Then Xuanyuan gathered the princes, and they went out to war against Chiyou in the plains of Zhuolu (涿鹿, Zhuō Lù).
+And Xuanyuan took Chiyou, and slew him.
+
+Then all the princes bowed their heads, and they said: “Thou art the Son of Heaven.”
+And they cast aside the house of Shennong, and they raised up Xuanyuan, and they called him the Yellow Emperor (黃帝, Huáng Dì).
+
+And wheresoever men rose in defiance, the Yellow Emperor went forth and subdued them.
+And when peace was made, he withdrew.
+He cut paths through the mountains, and he opened the ways, and he rested not in one place all his days.
+
+---
+
+Doctrine and Covenants Section 89:10~11 records,
+
+> ...all wholesome herbs God hath ordained for the constitution, nature, and use of man—  Every herb in the season thereof, and every fruit in the season thereof; all these to be used with prudence and thanksgiving.
+
+As I age, I seek simpler food, the ones that are similar to ones I grew up with.
+
+Likewise, this is an era bursting with new stories, reinterpretation of old stories, and some stories that are not based on enduring, proven truths.
+
+I retreat and rely on the stories of the past.
+
+The ones my parents told, lived and proved its principles -- sound doctrine or spiritual nourishment.
+
+Paul warned Timothy,
+> For the time will come when they will not endure sound doctrine;
+
+---
+
+We create, remember and act on stories.
+
+> The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.^[https://www.biblegateway.com/passage/?search=Ecclesiastes%201%3A9&version=KJV]
+
+Perhaps Professor H was correct.
+
+It is good to seek and create stories that are based on sound doctrines.
+
+It is far better to live them and let others, especially descendants, ponder and write stories about them.
+
+Thank you Mom and Dad for those stories, I remember them, retell and will live them.
+
+
+
