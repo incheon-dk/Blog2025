@@ -42,11 +42,15 @@ He then introduced the Elements of Deep Learning: Know. Feel. Do. Become.
 
 And he illustrated them through the Principle of Repentance — to know truth in the mind, to feel it in the heart, to act upon it in righteousness, and to become more like the Savior.
 
+---
+
 Two thousand years ago, the Apostle Paul wrote:
 
-常常學習，終久不能明白真道 “Ever learning, and never able to come to the knowledge of the truth.” (2 Timothy 3:7)
+“Ever learning, and never able to come to the knowledge of the truth.” (2 Timothy 3:7)
 
-Or, as rendered in classical Chinese:
+Or, as rendered in classical Chinese (和合本)^[<https://en.wikipedia.org/wiki/Chinese_Union_Version?oldformat=true>]:
+
+常常學習，終久不能明白真道 
 
 “Constantly studying and practicing, yet never able to clearly understand the true Way.”
 
