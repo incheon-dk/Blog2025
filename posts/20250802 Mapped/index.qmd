@@ -16,6 +16,6 @@ Highly portable, provide perspective and last a long long time with proper care.
 
 Modern navigation tools abound.
 
-Electronic navigation maps, GPS based and provides a step by step guidance.
+Electronic navigation maps, Global Positioning System (GPS) based and provides a step by step guidance.
 
 However it is not able to function without GPS and power.
