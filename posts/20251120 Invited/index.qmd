@@ -40,6 +40,7 @@ Be sure to say 안녕하세요 to Sister K, aka, Mama June.
 ```{r}
 library(leaflet)
 
+# 88 Cougar Blvd
 lat <- 40.250430014877374 
 lng <- -111.65711840878373
 
