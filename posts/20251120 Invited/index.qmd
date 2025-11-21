@@ -17,7 +17,22 @@ If you listened with just a bit of imagination, you could almost hear Autumn Lea
 
 ![](images/2iQfm-khsi6l3c3exprcohdzlye4sz.jpeg)
 
-And in this space, the melody felt perfectly at home.
+And in this space, the melody felt perfectly at home.\
+Like Goodwood Park Hotel.
+
+```{r}
+library(leaflet)
+
+# Goodwood Park Hotel, Singapore
+lat <- 1.3085658228056107 
+lng <- 103.83439328540615
+
+leaflet() %>%
+  addTiles() %>%                        # OpenStreetMap tiles
+  setView(lng = lng, lat = lat, zoom = 16) %>% 
+  addMarkers(lng = lng, lat = lat, 
+             popup = "Selected Location")
+```
 
 The room carried a gentle nostalgia—simple tables, soft natural light, and the faint aroma of simmering broths or pan-seared dishes lingering from the kitchen. It echoed the familiar charm of countless eateries tucked away in East Asian side streets:
 
@@ -27,9 +42,9 @@ Places where the food is honest, the hospitality understated, and the atmosphere
 
 Sometimes we go searching for places like these—chasing flavors, sounds, and textures from faraway cities. Other times, if we’re patient, those places come to us instead, quietly settling into our own neighborhoods, waiting to be noticed.
 
-![](images/20251120_120730.jpg)
-
 This spot is one of them.
+
+![](images/20251121_092036-COLLAGE.jpg)
 
 Familiar yet foreign, modest yet comforting, it rewards anyone willing to step inside, take a seat, and let the experience unfold.
 
