@@ -52,6 +52,8 @@ If you find yourself nearby with a quiet moment to spare, stop in—some places 
 
 Be sure to say 안녕하세요 to Sister K, aka, Mama June.
 
+![](images/20251121_171710~2.jpg)
+
 ```{r}
 library(leaflet)
 
