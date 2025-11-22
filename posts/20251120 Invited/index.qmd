@@ -4,7 +4,7 @@ author: "DK"
 date: "2025-11-20"
 execute: 
   echo: false
-categories: [neighborhood]
+categories: [neighborhood, nostalgia]
 ---
 
 It felt at first like stepping into the lobby of a small, old-world hotel—quiet, warm, and softened by music drifting from the southwest corner.
@@ -34,13 +34,13 @@ leaflet() %>%
              popup = "Selected Location")
 ```
 
-The room carried a gentle nostalgia—simple tables, soft natural light, and the faint aroma of simmering broths or pan-seared dishes lingering from the kitchen. It echoed the familiar charm of countless eateries tucked away in East Asian side streets:
+The room carried a gentle nostalgia—simple tables, soft natural light, and the faint aroma of simmering broths or pan-seared dishes lingering from the kitchen. It echoed the familiar charm of eateries tucked away in East Asian side streets:
 
-서울 · 東京 · 臺北 · 香港
+서울 · 東京 · 台北 · 香港
 
 Places where the food is honest, the hospitality understated, and the atmosphere unpretentious enough that you relax without thinking about it.
 
-Sometimes we go searching for places like these—chasing flavors, sounds, and textures from faraway cities. Other times, if we’re patient, those places come to us instead, quietly settling into our own neighborhoods, waiting to be noticed.
+Sometimes we go searching for places like these—seeking flavors, sounds, and textures from faraway cities. Other times, if we’re patient, those places come to us instead, quietly settling into our own neighborhoods, waiting to be noticed.
 
 This spot is one of them.
 
@@ -49,6 +49,8 @@ This spot is one of them.
 Familiar yet foreign, modest yet comforting, it rewards anyone willing to step inside, take a seat, and let the experience unfold.
 
 If you find yourself nearby with a quiet moment to spare, stop in—some places reveal their charm only when you sit down and stay awhile.
+
+Let Hana Mart carry you back to the quiet side streets you remember, and the ones your heart still hopes to visit.
 
 Be sure to say 안녕하세요 to Sister K, aka, Mama June.
 
