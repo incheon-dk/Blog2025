@@ -2,7 +2,6 @@
 title: "Recorded Memories"
 author: "DK"
 date: "2025-12-04"
-draft: yes
 categories: [memories]
 ---
 
