@@ -1,0 +1,65 @@
+---
+title: "A Holiday Storm: 2003"
+author: "DK"
+date: "2025-12-28"
+draft: yes
+categories: [storms]
+---
+
+<https://www.ksl.com/article/51421062/remembering-utahs-epic-snowstorms-heres-the-top-6-that-made-history>
+
+An article in KSL.com recounted top 6 snowstorms in Utah.
+
+All of them were near 20 inches in total.
+
+Of the top 6, I only missed one. March 1944.
+
+## The worst storm
+
+A 23.3 inch storm in 1993.
+
+The one where people were climbing (and falling) roofs to clear snows.
+
+We had just moved into a home a month prior.
+
+I thought about climbing the roof, but quickly dismissed the idea, knowing the back of the house is 2-story high.
+
+This confirms why there are so many snow related photos of our children growing up
+
+## The close call of December 2003
+
+We had discussed visiting the Phoenix area in Arizona, in those days air travel option was scarce.
+
+We had general plans but hadn't settled on a date until we saw the weather map.
+
+Realizing we needed to move quickly, we made the decision to **depart on Christmas Eve**.
+
+Our choice seemed correct—until we reached the Buckskin Valley of Utah Road 20, which connects **Panguitch** to I-15. The snowstorm caught up to us at the summit, and **visibility vanished**.
+
+The headlights hit the falling flakes, transforming the road into a **shimmering white curtain**. Descending the **hairpin turns** of the downgrade became a terrifying driving lesson I hope to never repeat; I said many prayers throughout those endless, winding miles.
+
+We eventually reached **US-89** and the flatter terrain of the state was within reach, therefore we kept driving until we reached **Kanab**.
+
+Even after we finally lay down to sleep, the image of that **white snow blanket** remained burned into my vision. I attribute our survival to a new set of **Michelin tires** and a great deal of help from above.
+
+```{r} 
+library(leaflet)
+
+lat <- 38.03401190428473 
+lon <- -112.53340794745634
+
+leaflet() %>% 
+  addProviderTiles(providers$OpenStreetMap) %>% 
+  setView(lng = lon, lat = lat, zoom = 12) %>% 
+  addMarkers( 
+    lng = lon, 
+    lat = lat, 
+    popup = "Project Location" 
+    )
+```
+
+It took me a while to recover from that ordeal.
+
+These days, even during non-winter season, I have a profound respect for the winter snowstorm.
+
+
