@@ -7,7 +7,9 @@ execute:
 categories: [storms]
 ---
 
-As if to spur or seed the moisture that has been lacking in the valleys and mountains this year, local media recently ran this headline **"Remembering Utah's Epic Snowstorms."**^[https://www.ksl.com/article/51421062/remembering-utahs-epic-snowstorms-heres-the-top-6-that-made-history]
+As if to spur or seed the moisture that has been lacking in the valleys and mountains this year, local media recently ran this headline **"Remembering Utah's Epic Snowstorms."**[^1]
+
+[^1]: https://www.ksl.com/article/51421062/remembering-utahs-epic-snowstorms-heres-the-top-6-that-made-history
 
 For those of us who live along the Wasatch Range, snow is more than just weather; it is a shared history.
 
@@ -121,4 +123,4 @@ As I look at the mountains today, I find myself hoping that the cycle of epic sn
 
 Without the chaos or the life-threatening situations.
 
-![](images/snow patrol 01.jpg)
+![](images/snow%20patrol%2001.jpg)

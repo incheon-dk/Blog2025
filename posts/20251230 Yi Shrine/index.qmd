@@ -1,0 +1,21 @@
+---
+title: "Yi Shrine and Hong Clan"
+author: "DK"
+date: "2025-12-30"
+draft: yes
+categories: [tasks]
+---
+
+```{r}
+library(leaflet)
+
+leaflet() |> 
+  addTiles() |> 
+  setView( 
+    lng = 127.03373101550798, lat = 36.805235132242494, zoom = 13 
+  ) |> 
+  addMarkers( 
+    lng =  127.03373101550798, lat = 36.805235132242494, 
+    popup = "백암리 near 현충사 (Hyeonchungsa Shrine, Asan)" 
+  )
+```
