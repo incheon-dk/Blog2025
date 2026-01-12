@@ -1,5 +1,5 @@
 ---
-title: "Kia Carnival"
+title: "A 3-Car Garage"
 author: "DK"
 date: "2026-01-10"
 categories: [education, understanding]
