@@ -6,9 +6,13 @@ draft: yes
 categories: [potential]
 ---
 
-Usually as end result of curiosity and at times necessity, we label or classify things in life.
+Our modern life is filled with an activity that would overwhelm a previous generation.
 
-Makes it easier to identify, categorize and find proper place.
+The activity is partly driven by curiosity and at times to fulfill a requirement.
+
+Out of necessity, we label or classify things in life.
+
+Making it easier to identify, categorize and find proper place.
 
 Likewise, it may be convenient to classify people based on the outward appearance
 
@@ -53,3 +57,5 @@ Nor did she murmur about the new life.
 She was 42 when she landed in Washington DC area.
 
 She managed to rebuild her life, as she did 23 years before when she fled North Korea.
+
+---

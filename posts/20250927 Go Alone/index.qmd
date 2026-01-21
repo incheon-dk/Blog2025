@@ -6,22 +6,19 @@ draft: yes
 categories: [prompt]
 ---
 
-Anticipating a long wait, took a book with me.
-Was first in the queue, and there were 2 people after me.
-The person behind me asked if I can read Chinese, an odd conversation starter.
+Anticipating a long wait, took a book with me. Was first in the queue, and there were 2 people after me. The person behind me asked if I can read Chinese, an odd conversation starter.
 
-He then pointed to the book I was holding.
-The cover had the prominent title, `史記 사기- Shiji`
-Oh, I don't read Chinese, but I can speak some Korean.
+He then pointed to the book I was holding. The cover had the prominent title, `史記 사기- Shiji`
+
+> Oh, I don't read Chinese, but I can speak some Korean.
 
 To my surprise he said he studied in Korea and received his PhD from 전북 University back in 1960s.
 
 He was involved in Peace Corp and it led to him to Korea.
 
-Then 처재's in-laws came.
-It turns out Robert Norton studied at their hometown of 전주.
+Then 처재's in-laws came. It turns out Robert Norton studied at their hometown of 전주.
 
----
+------------------------------------------------------------------------
 
 Hiked Rock Canyon with Sister K's sister and her husband.
 
@@ -31,9 +28,7 @@ Hi (Former) Bishop.
 
 Great to be recognized, no prompt, just immediate response.
 
----
-
-
+------------------------------------------------------------------------
 
 \\\\\\\\🌿 **Verse 1**\
 
@@ -93,20 +88,11 @@ Ah, what shall I do, my love, what shall I do?
 
 If you must leave, don’t go alone—let us never be parted in spirit.
 
-바람부는 제주에는 돌도 많지만
-인정많고 마음씨 고운 아가씨도 많지요
-감수광 감수광 날 어떡헐랭 감수광
-슬른사람 보낸시멘 가거덜랑 혼조옵서예.
+바람부는 제주에는 돌도 많지만 인정많고 마음씨 고운 아가씨도 많지요 감수광 감수광 날 어떡헐랭 감수광 슬른사람 보낸시멘 가거덜랑 혼조옵서예.
 
-겨울오는 한라산엔 눈이 덮여도
-당신하고 나사이에는 봄이 한창이라오
-감수광 감수광 날 어떡헐랭 감수광
-슬른사람 보낸시멘 가거덜랑 혼조옵서예.
+겨울오는 한라산엔 눈이 덮여도 당신하고 나사이에는 봄이 한창이라오 감수광 감수광 날 어떡헐랭 감수광 슬른사람 보낸시멘 가거덜랑 혼조옵서예.
 
-어쩌다가 나를 두고 떠난다 해도
-못잊어 그리우면 혼조 돌아 옵서예
-감수광 감수광 날 어떡헐랭 감수광
-슬른사람 보낸시멘 가거덜랑 혼조옵서예.
+어쩌다가 나를 두고 떠난다 해도 못잊어 그리우면 혼조 돌아 옵서예 감수광 감수광 날 어떡헐랭 감수광 슬른사람 보낸시멘 가거덜랑 혼조옵서예.
 
 On windy Jeju,\
 
