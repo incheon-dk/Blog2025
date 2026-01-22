@@ -5,6 +5,14 @@ date: "2026-01-07"
 categories: [questions, actions]
 ---
 
-> "The task is not so much to see what no one has yet seen; but to think what nobody has thought yet, about that which everybody sees"
+> "The task is not so much to see what no one has yet seen;\
+but to think what nobody has thought yet,\ 
+about that which everybody sees"
 
 -   Erwin Schrödinger
+
+---
+
+![Mt. Nebo](images/20251217_080034~2.jpg)
+
+---
