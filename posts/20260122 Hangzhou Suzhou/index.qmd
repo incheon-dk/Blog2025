@@ -1,5 +1,5 @@
 ---
-title: "Man at Hangzhou駅"
+title: "Man at 杭州駅"
 author: "DK"
 date: "2026-01-22"
 categories: [purpose]
