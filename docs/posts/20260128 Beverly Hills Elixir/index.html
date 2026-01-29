@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="DK">
-<meta name="dcterms.date" content="2026-01-18">
+<meta name="dcterms.date" content="2026-01-28">
 
-<title>Concrete Memories – Selected Thoughts</title>
+<title>Beverly Hills Elixir – Selected Thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -102,18 +68,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-<script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
-<link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-<script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
-<script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="../../site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
-<script src="../../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
-<script src="../../site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -161,10 +115,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Concrete Memories</h1>
+      <h1 class="title">Beverly Hills Elixir</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">memories</div>
-                <div class="quarto-category">possession</div>
+                <div class="quarto-category">preview</div>
               </div>
                   </div>
   </div>
@@ -182,7 +135,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 18, 2026</p>
+        <p class="date">January 28, 2026</p>
       </div>
     </div>
     
@@ -201,60 +154,51 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>I didn’t recognize the location at first.</p>
-<p>The video-feed was a suggestion from the algorithm, and the initial frames felt like a step back into a different era.</p>
-<p>The architecture looked outdated, the lighting was dim, and the overall visuals were a sharp departure from the polished, modern chapels I am used to seeing these days.</p>
-<hr>
-<p>As the meeting progressed, the reason for the “outdated” feel became clear: this remembrance meeting was being held in the church building—a structure built during the 1970s that served as a spiritual hub for decades.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Coordinates</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>lat <span class="ot">&lt;-</span> <span class="fl">37.58978093214264</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>lng <span class="ot">&lt;-</span> <span class="fl">126.96727889067571</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addProviderTiles</span>(providers<span class="sc">$</span>OpenStreetMap) <span class="sc">%&gt;%</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">setView</span>(<span class="at">lng =</span> lng, <span class="at">lat =</span> lat, <span class="at">zoom =</span> <span class="dv">15</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addMarkers</span>(</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> lng,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> lat,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">popup =</span> <span class="st">"Location: 37.58978, 126.96728"</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-e68446b217cf6a130551" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-e68446b217cf6a130551">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[37.58978093214264,126.9672788906757,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Location: 37.58978, 126.96728",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[37.58978093214264,126.9672788906757],15,[]],"limits":{"lat":[37.58978093214264,37.58978093214264],"lng":[126.9672788906757,126.9672788906757]}},"evals":[],"jsHooks":[]}</script>
+<p>I arrived in the City of Angels in February, trading the biting winter of Provo, Utah, for the warm, heavy air of Southern California.</p>
+<p>My senior companion, a native of Murray, Utah, picked me up from the California Los Angeles Mission Home.</p>
+<p>Instead of taking the utilitarian Santa Monica Freeway, he took the scenic route through Westwood and Beverly Hills.</p>
+<p>Coming from a month of snow and gray skies, I felt like I had entered another world or returned to the Garden of Eden.</p>
+<p>As we cruised past palm trees and manicured estates, I thought to myself:</p>
+<blockquote class="blockquote">
+<p><em>I could live here.</em></p>
+<p><em>I could definitely do missionary work in Beverly Hills.</em></p>
+</blockquote>
+<p>The illusion didn’t last long.</p>
+<p><img src="images/DSC04847.JPG" class="img-fluid"></p>
+<p>By the time we reached our actual apartment, reality set in. Our street was named <strong>Country Club Drive</strong>, which sounded prestigious, but our lodging was anything but.</p>
+<p>We lived at the top of a dangerously steep driveway in what appeared to be the dilapidated servants’ quarters of a home that had seen its glory days decades ago.</p>
+<p>The adjustment period was a shock to the system.</p>
+<p>The soundtrack of my new life consisted of nightly gunshots and police helicopters circling overhead, their search beacons sweeping across the neighborhood.</p>
+<p>During the day, our mission was a game of cultural detective work.</p>
+<p>Like many other immigrant groups, the newest arrivals tended to concentrate in specific pockets of Koreatown.</p>
+<p>We ventured out, training our eyes to spot the subtle signs of Korean life—the window treatments, the grocery bags, the specific vibe of a complex.</p>
+<p>We got surprisingly good at it.</p>
+<p>Then, the moment I had been waiting for arrived.</p>
+<p>We were given a referral: a Korean family living in Beverly Hills. I was finally going back to the world my companion had teased me with on my first day—this time, not as a tourist, but as a guest.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/yamadera_cliff.jpg" class="img-fluid figure-img"></p>
+<figcaption>Yamadera 山寺 Yamagata Japan 2007</figcaption>
+</figure>
 </div>
-</div>
-<section id="the-bridge-between-generations" class="level4">
-<h4 class="anchored" data-anchor-id="the-bridge-between-generations">The Bridge Between Generations</h4>
-<p>The group of speakers represented the foundation of the Church of Jesus Christ of Latter-day Saints in Korea. The program was a living timeline of faith:</p>
-<ul>
-<li><p><strong>The Pioneer Legacy:</strong> We heard from the daughter of <strong>Kim Ho-jik (김호직)</strong>, the first Korean convert, whose baptism in the 1950s started it all.</p></li>
-<li><p><strong>The Stalwarts:</strong> Speakers like <strong>Park Byung-kyu (박병규)</strong> shared testimonies of being baptized in the 1950s and eventually serving as Mission and Temple Presidents.</p></li>
-<li><p><strong>The Future:</strong> Alongside these giants stood a young man, a third-generation member, pledging to carry on the work his grandfather started.</p></li>
-</ul>
-</section>
-<section id="the-pain-of-progress" class="level4">
-<h4 class="anchored" data-anchor-id="the-pain-of-progress">The Pain of Progress</h4>
-<p>One speaker in particular—a member of the first Stake Presidency organized in Korea—shared a sentiment that was both touching and bittersweet. He lamented the fact that the physical spaces he held so close are slowly disappearing. These buildings, which witnessed the “boyhood and youth” of the Korean Church, are being sold, consolidated, and replaced with modern, efficient facilities.</p>
-<p>As he spoke [<a href="http://www.youtube.com/watch?v=gD0wBLsmvbQ&amp;t=4328">01:12:08</a>], he expressed a deep sadness about the sale of historical sites, wishing that these places of spiritual origin could be preserved as they were. To him, these weren’t just bricks and mortar; they were the “bedrock” where a generation learned to lead and serve.</p>
-</section>
-<section id="a-final-marker" class="level4">
-<h4 class="anchored" data-anchor-id="a-final-marker">A Final Marker</h4>
-<p>The meeting concluded with the unveiling of a memorial monument [<a href="http://www.youtube.com/watch?v=gD0wBLsmvbQ&amp;t=5351">01:29:11</a>]. As Elder Esplin noted, while the buildings may change or disappear, the monument serves to remind future generations that the history of the Church in Korea isn’t a fairy tale or a legend—it is a real history built on the actual sacrifices of those who sat in those dim, outdated pews.</p>
-<p>The video was a reminder that while the Church is moving toward a modern future, its soul is still anchored in the 1970s concrete of Cheongun-dong.</p>
 <hr>
-<p>The cassette tape is making a surprising comeback in 2026. By any modern technical standard, it is an inferior medium—prone to hissing, warping, and breaking. Yet, it offers something streaming cannot: tangible proof of ownership. When you record a mixtape, you are a participant in its creation. In an age of disposable digital goods, there is a desperate, human instinct to hold onto things we can touch.</p>
-<p>This tension between the physical place and the spiritual heart is an old one. In Leo Tolstoy’s 1885 story, Two Old Men, Yefim and Yelisei set out on a pilgrimage to Jerusalem. Yefim is methodical and determined to reach the physical “Holy City.” Yelisei, however, stops along the way to spend his pilgrimage money saving a starving family. Yefim reaches the physical temple, but it is Yelisei who finds the true spirit of the journey.</p>
-<p>Which one was truly enlightened?</p>
-<p>We see this same question in John 4. For centuries, the Jews and Samaritans debated “spiritual geography”—was the right place to worship Mount Gerizim or Jerusalem? Jesus’ response dismantled the map entirely. He announced an era where the Father is not localized to a specific building or a specific peak, but is worshipped in spirit and in truth.</p>
-<p>I thought of this as I watched the video of the old Cheongun-dong church building. To the pioneers who built it in the 1970s, seeing these landmarks sold or consolidated feels like losing a piece of oneself. But like the cassette tape or the road to Jerusalem, the building is the medium, not the message.</p>
-<p>The buildings have served their purpose. The deeds performed within them—the sacrifices, the baptisms, and the quiet service—have already been “recorded” in a format that does not decay. We hold onto the temporal things until the moment they finally become spiritual.</p>
-<hr>
-<p>It is easy to separate the things of this temporal world from the spiritual realm—mentally.</p>
-<p>It is far more difficult to reconcile the loss while in this life.</p>
-<p>How does one replace a tangible proof, one that you had part in creating?</p>
+<section id="the-pink-elixir-of-beverly-hills" class="level3">
+<h3 class="anchored" data-anchor-id="the-pink-elixir-of-beverly-hills">The Pink Elixir of Beverly Hills</h3>
+<p>When we entered the threshold of that Beverly Hills home, we were led into a living area that was both immaculate and strikingly simple.</p>
+<p>It turned out their surname was the same as mine; I liked the sound of it—the <strong>“K Family of Beverly Hills.”</strong></p>
+<p>The family was the picture of courtesy, displaying manners and speech that were a comfortable blend of English and Korean.</p>
+<p>They explained that their interest had started during a trip to Yellowstone. They had stopped at Temple Square in Salt Lake City and, after the tour, filled out a card requesting a missionary visit.</p>
+<p>Now, here we were—two young men from a cramped apartment on Country Club Drive, sitting in the heart of one of the world’s most famous zip codes.</p>
+<p>Then, they brought out a drink. It was a vibrant, translucent pink.</p>
+<p>At the time, I was convinced I was being served something exclusive—a rare beverage reserved only for the wealthy.</p>
+<p>I later discovered it was simply pink grapefruit juice (though whether it was freshly squeezed or from a concentrate remains a mystery).</p>
+<p>In that environment, and at that age, it tasted like an elixir.</p>
+<p><strong>It tasted like success.</strong></p>
+<p>That day, a goal took root in my mind. I decided that one day, I would buy a home in a neighborhood that would not deteriorate. And when visitors came to my door, I would offer them a glass of fresh juice.</p>
+<p>Since then, I have often wondered about the “metabolism” of a neighborhood. Why does one area sustain its reputation and legacy for a century, while another, seemingly identical area, loses its way? It is a question of sociology, economics, and time.</p>
+<p>I plan to explore this further, perhaps collaborating with social scientists and AI to understand the variables of a <strong>“sustainable legacy.”</strong></p>
+<p>In the meantime, I think I’ll go have another glass of fresh grapefruit juice.</p>
+<p><img src="images/IMG_3103.JPG" class="img-fluid"></p>
 
 
 </section>

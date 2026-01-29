@@ -6,7 +6,7 @@ draft: yes
 categories: [limits, freedom]
 ---
 
-The journey ended in Osaka.
+The journey ended in Osaka (大阪).
 
 After 650 kilometers of walking from Tokyo—guitar strapped to his back, his feet that endured bouts of blisters due to rain soaked shoes—a young Dutch traveler finally met his friends.
 
@@ -20,7 +20,7 @@ One friend captured their sentiment:
 
 10 years ago, I combined a visit to my sister and her husband who was working in Toulouse with a business trip to Venlo, Netherlands.
 
-I let my contact, Pieter van der Wal, know that I arrived in France.
+I let my contact, Pieter van der Wal, know that I arrived in France.^[There is an apocryphal story about Pieter, who is about average Dutch person, 6'4" and very fit. Once he visited a factory that the Utah contingent visited.  The host group was curious as to how much alcohol westerners can consume, since very few visitors from Utah drank.  It was said that Pieter drank a copious amounts of beer and sake and didn't even register and continued to interact.  Or There’s an apocryphal story about Pieter, a fit, 6'4" Dutchman. During a factory visit, our hosts—unused to the Utah contingent's sobriety—decided to test his limits. Despite a mountain of beer and sake, Pieter didn't flinch, continuing to interact with total clarity while the hosts looked on in awe.]
 
 He suggested that I take inter-city trains to Netherlands via overnight trains through Paris, Antwerp and Rotterdam.
 
@@ -28,19 +28,19 @@ A distance of nearly 1200km and taking 15 hours of travel time.
 
 This was based on and continuation of our previous rail travel discussions
 
-He went on his honeymoon to Switzerland on a train.
-
-A 800km journey and 12 hours.
+He went on his honeymoon to Switzerland on a train. A 800km journey and 12 hours.
 
 I would tell him about the 600km journey from Singapore's Tanjong Pagar Station to Wakauf Bahru Station in Kelantan region of eastern Malaysia peninsula.
 
-I held ace on that discussion
+I held ace on that discussion.
 
 The Tokyo to Sapporo journey was a 1200km trip that took 16 hours before the Shinkansen implementation.
 
 Flying from point A to point B was not of interest to either one of us.
 
 ------------------------------------------------------------------------
+
+## The Korean Approach
 
 When I worked in Gumi, Korea, the company canteen provided 3 meals a day
 
@@ -55,6 +55,8 @@ And prevailing mode was 빨리빠리, hurry-up.
 Get things done and move on to the next project.
 
 Although I didn't grow up in Korea, I catch myself thinking in that mode from time to time.
+
+> What is the consensus view of how Koreans function as a group and as individuals?
 
 But I also see the meaning in the Dutch-Approach.
 

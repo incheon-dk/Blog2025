@@ -6,13 +6,15 @@ draft: yes
 categories: [memories, possession]
 ---
 
-I didn't recognize the location at first. 
+I didn't recognize the location at first.
 
-The video-feed was a suggestion from the algorithm, and the initial frames felt like a step back into a different era. 
+The video-feed was a suggestion from the algorithm, and the initial frames felt like a step back into a different era.
 
 The architecture looked outdated, the lighting was dim, and the overall visuals were a sharp departure from the polished, modern chapels I am used to seeing these days.
 
-As the meeting progressed, the reason for the "outdated" feel became clear: this remembrance meeting was being held in the  church building—a structure built in the 1970s that served as a spiritual hub for decades.
+---
+
+As the meeting progressed, the reason for the "outdated" feel became clear: this remembrance meeting was being held in the church building—a structure built during the 1970s that served as a spiritual hub for decades.
 
 ```{r}
 library(leaflet)
@@ -31,10 +33,9 @@ leaflet() %>%
   )
 ```
 
-
 #### The Bridge Between Generations
 
-The group of speakers represented the very foundation of the Church of Jesus Christ of Latter-day Saints in Korea. The program was a living timeline of faith:
+The group of speakers represented the foundation of the Church of Jesus Christ of Latter-day Saints in Korea. The program was a living timeline of faith:
 
 -   **The Pioneer Legacy:** We heard from the daughter of **Kim Ho-jik (김호직)**, the first Korean convert, whose baptism in the 1950s started it all.
 
@@ -46,15 +47,16 @@ The group of speakers represented the very foundation of the Church of Jesus Chr
 
 One speaker in particular—a member of the first Stake Presidency organized in Korea—shared a sentiment that was both touching and bittersweet. He lamented the fact that the physical spaces he held so close are slowly disappearing. These buildings, which witnessed the "boyhood and youth" of the Korean Church, are being sold, consolidated, and replaced with modern, efficient facilities.
 
-As he spoke [[01:12:08](http://www.youtube.com/watch?v=gD0wBLsmvbQ&t=4328)], he expressed a deep sadness about the sale of historical sites, wishing that these places of spiritual origin could be preserved as they were. To him, these weren't just bricks and mortar; they were the "bedrock" where a generation learned to lead and serve.
+As he spoke \[[01:12:08](http://www.youtube.com/watch?v=gD0wBLsmvbQ&t=4328)\], he expressed a deep sadness about the sale of historical sites, wishing that these places of spiritual origin could be preserved as they were. To him, these weren't just bricks and mortar; they were the "bedrock" where a generation learned to lead and serve.
 
 #### A Final Marker
 
-The meeting concluded with the unveiling of a memorial monument [[01:29:11](http://www.youtube.com/watch?v=gD0wBLsmvbQ&t=5351)]. As Elder Esplin noted, while the buildings may change or disappear, the monument serves to remind future generations that the history of the Church in Korea isn't a fairy tale or a legend—it is a real history built on the actual sacrifices of those who sat in those dim, outdated pews.
+The meeting concluded with the unveiling of a memorial monument \[[01:29:11](http://www.youtube.com/watch?v=gD0wBLsmvbQ&t=5351)\]. As Elder Esplin noted, while the buildings may change or disappear, the monument serves to remind future generations that the history of the Church in Korea isn't a fairy tale or a legend—it is a real history built on the actual sacrifices of those who sat in those dim, outdated pews.
 
 The video was a reminder that while the Church is moving toward a modern future, its soul is still anchored in the 1970s concrete of Cheongun-dong.
 
----
+------------------------------------------------------------------------
+
 The cassette tape is making a surprising comeback in 2026. By any modern technical standard, it is an inferior medium—prone to hissing, warping, and breaking. Yet, it offers something streaming cannot: tangible proof of ownership. When you record a mixtape, you are a participant in its creation. In an age of disposable digital goods, there is a desperate, human instinct to hold onto things we can touch.
 
 This tension between the physical place and the spiritual heart is an old one. In Leo Tolstoy’s 1885 story, Two Old Men, Yefim and Yelisei set out on a pilgrimage to Jerusalem. Yefim is methodical and determined to reach the physical "Holy City." Yelisei, however, stops along the way to spend his pilgrimage money saving a starving family. Yefim reaches the physical temple, but it is Yelisei who finds the true spirit of the journey.
@@ -67,3 +69,16 @@ I thought of this as I watched the video of the old Cheongun-dong church buildin
 
 The buildings have served their purpose. The deeds performed within them—the sacrifices, the baptisms, and the quiet service—have already been "recorded" in a format that does not decay. We hold onto the temporal things until the moment they finally become spiritual.
 
+---
+
+It is easy to separate the things of this temporal world from the spiritual realm—mentally.
+
+It is far more difficult to reconcile the loss while in this life.
+
+How does one replace a tangible proof, one that you had part in creating?
+
+You don't.
+
+Instead, capture the memory derived from the building's existence.
+
+Much like we do when our parents depart this life.
