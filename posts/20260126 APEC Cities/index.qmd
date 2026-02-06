@@ -2,6 +2,7 @@
 title: "APEC Cities"
 author: "DK"
 date: "2026-01-26"
+draft: yes
 categories: [korean cities]
 ---
 
