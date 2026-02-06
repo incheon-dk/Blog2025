@@ -45,7 +45,9 @@ Then, about two weeks later, the sky opened up.
 
 The great snowstorm began on January 5th.
 
-According to the records, it snowed for twenty-two hours straight, leaving 23.3 inches (59.2 cm) on the ground in a single day.^[<https://www.ksl.com/article/51421062/remembering-utahs-epic-snowstorms-heres-the-top-6-that-made-history>, in section titled January 1993]
+According to the records, it snowed for twenty-two hours straight, leaving 23.3 inches (59.2 cm) on the ground in a single day.[^2]
+
+[^2]: <https://www.ksl.com/article/51421062/remembering-utahs-epic-snowstorms-heres-the-top-6-that-made-history>, in section titled January 1993
 
 But the storm was just the beginning; the snow kept coming throughout the month.
 

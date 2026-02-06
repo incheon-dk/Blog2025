@@ -1,0 +1,58 @@
+---
+title: "APEC Cities"
+author: "DK"
+date: "2026-01-26"
+categories: [korean cities]
+---
+
+Korean provinces are named after its leading cities.
+For example, the province of 충청도 derives its name from cities of 충주 and 청주.
+
+Likewise 경상도 is named after 경주 and 상주.
+
+We lived about an hour from 경주, 55km the site of Shilla Dynasty capital 
+But we didn't fully take advantage of it.
+Much like visiting downtown DC when visitors came, when we lived in Maryland.
+
+We bought a sterilizer made in Barcelona, Spain.
+First the installers came, with their local wine hid away inside the chamber.
+They were a gregarious bunch.
+Played a soccer match
+A local version of Spain vs Korea, foreshadowing the 2002 World Cup.
+
+Then the owners came.
+They explained they go to installation sites, wherever the equipment is installed.
+
+I was impressed.
+Vowed to follow their leads
+Followe
+
+```{r}
+library(leaflet)
+
+locations <- data.frame(
+  name = c("구미", "동대구역", "경주", "부산역"),
+  lat  = c(36.1195, 35.8802, 35.8562, 35.1151),
+  lon  = c(128.3446, 128.6286, 129.2247, 129.0414)
+)
+
+leaflet(locations) |>
+  addProviderTiles(providers$CartoDB.Positron) |>
+  addCircleMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    radius = 7,
+    stroke = TRUE,
+    weight = 1,
+    fillOpacity = 0.8,
+    popup = ~name,
+    label = ~name
+  ) |>
+  fitBounds(
+    lng1 = min(locations$lon),
+    lat1 = min(locations$lat),
+    lng2 = max(locations$lon),
+    lat2 = max(locations$lat)
+  )
+
+```
