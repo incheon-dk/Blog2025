@@ -2,6 +2,7 @@
 title: "Gardener"
 author: "DK"
 date: "2026-02-09"
+draft: yes
 categories: [gardening, growing]
 ---
 
