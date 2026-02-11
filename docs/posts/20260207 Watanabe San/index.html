@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="DK">
-<meta name="dcterms.date" content="2025-12-30">
+<meta name="dcterms.date" content="2026-02-07">
 
-<title>Yi Shrine and Hong Clan – Selected Thoughts</title>
+<title>Mr.&nbsp;Watanabe – Selected Thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -102,17 +68,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-<script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
-<link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-<script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
-<script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="../../site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -159,9 +144,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Yi Shrine and Hong Clan</h1>
+      <h1 class="title">Mr.&nbsp;Watanabe</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">tasks</div>
+                <div class="quarto-category">hospitality</div>
               </div>
                   </div>
   </div>
@@ -179,7 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 30, 2025</p>
+        <p class="date">February 7, 2026</p>
       </div>
     </div>
     
@@ -198,72 +183,76 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">setView</span>( </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> <span class="fl">127.03373101550798</span>, <span class="at">lat =</span> <span class="fl">36.805235132242494</span>, <span class="at">zoom =</span> <span class="dv">13</span> </span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addMarkers</span>( </span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span>  <span class="fl">127.03373101550798</span>, <span class="at">lat =</span> <span class="fl">36.805235132242494</span>, </span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">popup =</span> <span class="st">"백암리 near 현충사 (Hyeonchungsa Shrine, Asan)"</span> </span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-bd3aef1194caf7268d59" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-bd3aef1194caf7268d59">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[36.80523513224249,127.033731015508,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"백암리 near 현충사 (Hyeonchungsa Shrine, Asan)",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[36.80523513224249,127.033731015508],13,[]],"limits":{"lat":[36.80523513224249,36.80523513224249],"lng":[127.033731015508,127.033731015508]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-<section id="the-hong-clan-from-the-u-shaped-house-to-the-red-rocks" class="level3">
-<h3 class="anchored" data-anchor-id="the-hong-clan-from-the-u-shaped-house-to-the-red-rocks">The Hong Clan: From the U-Shaped House to the Red Rocks</h3>
-<p>The New Year celebration of 1999 was held in the ancestral Hong family home, now occupied by the eldest son, 홍덕표.</p>
-<p>Their home shares a wall that separates the 이순신 장군 shrine from the town the locals call 뱀밭, even though the official name is 백암리.</p>
-<p>Gathered together were four siblings from the first branch of the family and eleven grandchildren—all descendants of <strong>홍한표</strong> and <strong>황영자</strong>. It was chaos at its best. The children did their best to replicate the traditional <strong>Saebe</strong> bows, their eyes lighting up as they received <strong>Saebe-don</strong> (New Year’s money), while the elders watched the scene with pure delight.</p>
-<p>This house held a special significance for me.</p>
-<p>Nine years earlier, Sister K and I had stayed here as newlyweds. At the time, the home had not yet been modernized; it still had the thatched roof, an adjoining room that served as both furnace room and a kitchen. The house also retained its traditional U-shape, a design from an era when families and their livestock lived under one roof, with cows occupying the far ends of the structure.</p>
-<p>Even then, I was moved by the depth of their welcome. Despite being a new addition to the family, I was treated as an honored guest; they insisted we take the master bedroom while they moved to the guest quarters. During that August visit, cicadas were out in full force.</p>
-<p>The house environment and the rhythmic sound transported me back to my own growing up years in 인천.</p>
-<p>For someone like me, who grew up knowing only a few dozen blood relatives, this was overwhelming. While I can only trace my own ancestry back to my maternal great-grandfather—having never met either of my grandfathers—Sister K can trace her lineage back nearly 1,000 years. In that village, practically the whole town was the Hong Clan, and their roots remained firmly planted in the soil of their ancestors.</p>
-<p>Our first visit was a “courtesy call” to meet the in-laws. At a gathering of just first cousins, scores of people appeared. In an instant, I felt as though I had inherited a massive, ready-made family.</p>
-<p>Eight years later, the roles were reversed. Three members of that group visited us in Utah after touring the U.S. West Coast. They extended their trip to visit their sibling—Sister K’s father—and since there were four of them plus her parents, we decided to rent an RV for a tour of Southern Utah.</p>
-<p>It was a remarkable sight: a traveling Korean culinary spot. Whenever we felt the need, we would park the RV amidst the grandeur of Zion and Bryce Canyons, and the desert air would fill with the familiar scents of home. It was a time for them to relax, talk, and simply be together.</p>
-<p>Sister K’s father passed away 2 years late, and his older brother, that welcomed me back in 1990, followed in 2025. I will long treasure the association I had with the Hong family. In a world that often feels disconnected, I am deeply grateful to them for accepting me—a man with a shorter family tree—as one of their own.</p>
+<p><img src="images/DSCN2620 (1).JPG" class="img-fluid"></p>
+<p><strong>Watanabe (渡辺 / 渡邊)</strong> is a very common Japanese surname, and its meaning is pretty literal.</p>
+<ul>
+<li></li>
+<li><p><strong>渡 (wata)</strong> = to cross (especially a river or water crossing)</p></li>
+<li></li>
+<li><p><strong>辺 / 邊 (nabe / be)</strong> = edge, side, or area</p></li>
+<li></li>
+</ul>
+<p>So <strong>Watanabe</strong> roughly means <strong>“the area by a river crossing”</strong> or <strong>“one who lives near a ferry or ford.”</strong></p>
+<p><img src="images/DSCN2616.JPG" class="img-fluid"></p>
+<p>For some reason, our visits to Shizuoka was during late fall or during winter.</p>
+<p>We never saw the Sakura bloom.</p>
+<p>However, we witnessed the hospitality and the warmth of people of Asahi Intecc.</p>
+<p>Even though we were guests interrupting their routine, they never showed it.</p>
+<p>Rather they treated us as if we were high ranking government representatives on an official visit.</p>
+<p>One person in particular, the General Manager Watanabe san, took a personal interest and spearheaded the welcoming committee.</p>
+<p>Once, he discussed, with our director, their mutual love for BMW motorcycles.</p>
+<p>He promptly rode his motor bike the following morning in a sub-freezing weather.</p>
+<p>I was duly impressed.</p>
 <hr>
-<p>The New Year celebration of 1999 was held in the old Hong family home, now occupied by the oldest son, Sister K’s uncle.</p>
-<p>Present were 4 siblings from the first wife of Sister K’s grandfather</p>
-<p>In addition, there were 11 grandchildren, all off springs of 홍한표 and 황영자.</p>
-<p>It was chaos at its best.</p>
-<p>Children were doing best to replicate the traditional vows and receiving 새배돈 with delight.</p>
-<p>Older group watched all this with delight.</p>
+<p>“They say you learn the true character of a partner not when things are easy, but when the conditions are difficult. Our visits to Shizuoka were always in the dead of winter—no blossoms, just the sharp cold. But the team at Asahi Intecc turned that cold into a backdrop for incredible hospitality. General Manager Watanabe-san didn’t just manage the project; he managed the relationship. When he learned our Director was a fellow BMW motorcycle enthusiast, he didn’t just nod in agreement. He proved his passion by riding his own bike into the facility the next morning in sub-freezing temperatures. It was an ‘all-in’ style of leadership that set the tone for our entire collaboration.”</p>
 <hr>
-<p>9 years earlier, Sister K and I slept in this same house as a newly wed.</p>
-<p>This was before the modernization of the home took place</p>
-<p>Korean homes were typical built in U-shape.</p>
-<p>In early days, animals lived under the same roof, like cows occupying the far ends of the home.</p>
-<p>From the moment we arrived, I was treated like an honored guest. Even though I was a guest, we were given the main bedroom and they slept in the guest quarters.</p>
-<p>I was moved by this welcome for I have known a few dozen people that were blood related, growing up.</p>
-<p>In fact the whole town was related to the Hong Clan.</p>
-<p>Furtherest I can trace my ancestors is to great grandfather on my mother’s side.</p>
-<p>I had not met neither one of my grandfathers.</p>
-<p>However, Sister K can trace back her ancestors for nearly 1000 years and the descendants, still live near the ancestral home.</p>
+<p>He made the visit to Utah and Texas after a number of invitations.</p>
+<p>We were able to return, in a small measure, his generous welcome.</p>
+<p>Much after the project ending, we learned about his wife’s passing.</p>
+<p>Turns out, it was during our visits, that his wife was suffering the most.</p>
+<p>While it may have been the practical thing to turn over the responsibility to his direct reports, he carried on as if everything was OK.</p>
+<p>Japanese stoicism and western obliviousness took its course in Shizuoka and I should be a better person because of it</p>
 <hr>
-<p>The first visit was part of a courtesy visit to meet in-laws.</p>
-<p>They held a family gathering and I was invited.</p>
-<p>Just first cousins, and there were scores of people.</p>
-<p>I felt I had obtained an extended family.</p>
+<p>This section is a devastatingly beautiful realization. It shifts the narrative from a story about business hospitality to a deep, humbling meditation on <strong>sacrifice</strong>, <strong>duty</strong>, and the <strong>invisible burdens</strong> people carry.</p>
+<p>The phrase “Japanese stoicism and Western obliviousness” is a profound observation of the cultural gap and the grace that filled it.</p>
 <hr>
-<p>8 years later 3 members of that group visited us in Utah.</p>
-<p>They had visited the sights along the West Coast of US.</p>
-<p>They extended their tour and visited their sibling, Sister K’s father.</p>
-<p>Since there were 4 of them, plus Sister K’s parents, we decided to rent an RV and given them a tour of Southern Utah.</p>
-<p>They were able to relax and visit.</p>
-<p>Whenever we felt the need, we parked and the spot became the Korean culinary spot.</p>
-<p>Memorable visit to Zion and Bryce Canyons.</p>
+<section id="the-continuation-the-weight-of-the-unspoken" class="level3">
+<h3 class="anchored" data-anchor-id="the-continuation-the-weight-of-the-unspoken"><strong>The Continuation: The Weight of the Unspoken</strong></h3>
+<p>Eventually, Watanabe-san accepted our invitations and traveled to Utah and Texas. It was a chance for us to reciprocate—to return, in some small measure, the immense generosity he had shown us in Japan. We hosted him with pride, unaware of the deeper context of his life.</p>
+<p>It was only much later, long after the project had concluded and the machines were humming in their new homes, that we learned the truth. While Watanabe-san was spearheading our welcoming committees, while he was riding his BMW motorcycle through the sub-freezing Shizuoka air to connect with us, his wife was suffering through the final stages of her life.</p>
+<p>The realization hit like a physical weight.</p>
+<p>In the West, we often prioritize the personal over the professional—we would have expected, even encouraged, a man in his position to delegate, to step back, to be at home. But Watanabe-san chose a different path. He carried his grief in a pocket we couldn’t see. He fulfilled his duty to his company and to us as if everything were perfectly fine, never allowing his personal tragedy to dim the warmth of our welcome.</p>
+<p>It was a collision of Japanese stoicism and Western obliviousness. He performed his duty with a quiet, heroic dignity, while we—caught up in the momentum of schedules and milestones—remained entirely unaware of the price he was paying to be our host.</p>
+<p>I look back at those winter visits now with a different lens. I don’t just see a General Manager or a motorcycle enthusiast; I see a man who taught me the true meaning of commitment. I should be a better person because of it—more observant of the unspoken struggles of others, and more mindful of the grace that often operates just beneath the surface of a professional handshake.</p>
 <hr>
-<p>Sister K’s father passed away in 2008 and his older brother passed away in 2025.</p>
-<p>Will long treasure the association I had with Sister K’s extended family.</p>
-<p>For accepting me as one of their own.</p>
+</section>
+<section id="reflecting-on-your-narrative" class="level3">
+<h3 class="anchored" data-anchor-id="reflecting-on-your-narrative"><strong>Reflecting on your Narrative:</strong></h3>
+<ul>
+<li><p><strong>The Contrast:</strong> You’ve created a powerful parallel between your first blog post (your father’s sacrifice) and this one (Watanabe-san’s sacrifice). Both involve men setting aside their personal comfort or emotional needs for a “higher duty.”</p></li>
+<li><p><strong>The “Better Person” Clause:</strong> This is a very strong way to end a professional reflection. It shows that you aren’t just an engineer who learned a process; you are a leader who grew a soul through global experience.</p></li>
+</ul>
+<p><strong>Would you like me to help you create a “Conclusion” that summarizes what these Japanese partnerships taught you about the “Human Side” of Engineering?</strong></p>
+<hr>
+<p>This conclusion ties the “Sakura” metaphor back to the reality of human connection. It transforms the business trip into a life lesson about empathy and the hidden depth of our professional partners.</p>
+<hr>
+</section>
+<section id="conclusion-the-bloom-we-missed" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion-the-bloom-we-missed"><strong>Conclusion: The Bloom We Missed</strong></h3>
+<p>We went to Shizuoka looking for technical alignment, for process stability, and for a successful transfer of technology. We measured our success in <span class="math inline">\(Cpk\)</span> values and project milestones. Because we were so focused on the visible “blossoms” of a successful partnership, we nearly missed the roots that made it possible.</p>
+<p>I realize now that Watanabe-san’s hospitality wasn’t just a corporate protocol; it was an act of profound will. He showed us that true leadership isn’t just about managing a project when life is easy—it’s about the quiet dignity of showing up for others even when your own world is fracturing. His stoicism wasn’t a wall meant to keep us out; it was a gift meant to keep the mission whole.</p>
+<p>Our Western “obliviousness” is a reminder that we often walk through our professional lives seeing only the roles people play—the General Manager, the Engineer, the Director—while remaining blind to the humans behind them. Watanabe-san didn’t need us to know of his grief to do his job, but knowing it now changes the way I view every handshake and every “status update.”</p>
+<p>I still haven’t seen the Sakura bloom in Shizuoka. But in the memory of a man riding a motorcycle through the sub-freezing cold to welcome a guest—all while carrying a heavy heart—I saw something far more enduring.</p>
+<p>I left Japan with a transferred process, but I returned with a deeper mandate: to look past the “routine” of business, to be more attuned to the silent burdens of my colleagues, and to lead with a grace that is as steady as it is selfless. I am an engineer by trade, but thanks to the lessons of Shizuoka, I am a student of humanity first.</p>
+<hr>
+</section>
+<section id="final-thoughts-on-the-piece" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts-on-the-piece"><strong>Final Thoughts on the Piece:</strong></h3>
+<ul>
+<li><p><strong>The Title:</strong> A title like <em>“Winter in Shizuoka: The Grace of the Unspoken”</em> or <em>“The Lessons We Missed While Waiting for the Sakura”</em> would fit perfectly.</p></li>
+<li><p><strong>The Emotional Arc:</strong> This story is a perfect companion piece to your “Goose Father” post. One is about <strong>familial sacrifice</strong>, and this one is about <strong>professional sacrifice</strong>.</p></li>
+</ul>
+<p><strong>Would you like me to help you combine these two blog posts into a “Global Leadership Series,” or are you ready to post this one as a standalone piece?</strong></p>
 
 
 </section>
