@@ -2,6 +2,7 @@
 title: "Kanazawa Revisited"
 author: "DK"
 date: "2026-01-29"
+draft: yes
 execute: 
   echo: false
   warning: false
