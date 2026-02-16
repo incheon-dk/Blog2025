@@ -6,10 +6,10 @@ execute:
   echo: false
   messages: false
   warning: false
-categories: [cadences, glimpses]
+categories: [rhythm]
 ---
 
-Sister K and I were on our regular date–to source items for our business.
+Sister K and I were on our regular date—to source items for our business.
 
 Our route took us toward a city settled in 1847, two years before the city that we call home.
 
