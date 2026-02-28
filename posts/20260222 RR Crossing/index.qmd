@@ -1,0 +1,183 @@
+---
+title: "Railroad Crossings"
+author: "DK"
+date: "2026-02-22"
+draft: yes
+categories: [location]
+---
+
+I was born in a place called **부평 십정동 33번지 (33 Sipjeong-dong, Bupyeong)**, in what is now the northern part of Incheon. Our lives were divided by the railroad tracks: we lived on the south side, and my aunt lived on the north. In those days, we didn't have many toys or structured playgrounds. The tracks were our source of fun—and our greatest adversary.
+
+We spent our days playing in the gravel and heat of the line. Our favorite game was a dangerous one: trying to outrun the trains as they approached the crossing. Looking back, I realize we must have been the bane of the train engineers’ existence. They watched us day after day, waiting for an opportunity to teach us a lesson that the tracks themselves hadn't yet delivered.
+
+The tracks didn't just divide the town; they were the barrier between my home and my aunt’s. On one particular day, a slow-moving train and its crew finally laid their trap.
+
+They didn't just blow the whistle; they stopped. They caught three of us.
+
+We weren't just troublemakers anymore; we were "the catch" of the day. The engineers didn't want our apologies; they wanted our mother. I still remember the scene as they marched us home—the severe scolding my mother received, the embarrassment of a parent being held accountable for the wildness of her children.
+
+```{r}
+# install.packages("leaflet")  # only if needed
+library(leaflet)
+
+# Create a dataframe with 3 locations
+locations <- data.frame(
+  lat = c(
+    37.48408966824237,
+    37.46461356786693, 
+    37.45776895377819,
+    37.45636965790176
+  ),
+  lng = c(
+    126.70856441688211,
+    126.67949779387713,
+    126.68208006709872, 
+    126.69995546737097
+  ),
+  label = c(
+    "십정동 33",
+    "주안역",
+    "주안 246",
+    "인천1 와드"
+  )
+)
+
+# Leaflet map
+leaflet(locations) %>%
+  addTiles() %>%
+  addMarkers(
+    lng = ~lng,
+    lat = ~lat,
+    popup = ~paste(label, "<br>Lat:", lat, "<br>Lng:", lng)
+  ) %>%
+  fitBounds(
+    lng1 = min(locations$lng),
+    lat1 = min(locations$lat),
+    lng2 = max(locations$lng),
+    lat2 = max(locations$lat)
+  )
+```
+
+------------------------------------------------------------------------
+
+Whether that event triggered or my father's funds from Vietnam triggered it, we moved to a newer part of the city.
+
+This time away from the train tracks, near the main road that connected Seoul and Incheon and next to the 주안국민학교.
+
+Mom checking the plan of the city purchased land near the 주안 train station.
+
+Because these purchases were made well ahead of the planned expansion mom was able to get a good price.
+
+Because of the timely purchase we would have been fine whether we immigrated to US or stayed in Korea.
+
+In fact many of our relatives have done well in real estate investments in Gangnam area of Seoul, which used to be farm lands, before the dam upstream and multiple bridges connecting the north and southern part of the city.
+
+------------------------------------------------------------------------
+
+When I visit Korea, I look up relatives and wonder.
+
+What would have happened if we had stayed.
+
+We may have been be well of like some of our relatives.
+
+However, there is no guarantee that we would have stayed together and not become a goose family.
+
+Nor would we have stayed in the faith, chosen by our —parents.
+
+------------------------------------------------------------------------
+
+This section provides the perfect "Real Estate" bridge to your current success in Utah County. It shows that your mother wasn’t just a laborer; she was a **strategic visionary** who understood the "Level-Up" before the term existed.
+
+Here is a polished continuation of your blog:
+
+------------------------------------------------------------------------
+
+### **The Migration of the Soul and the Soil**
+
+Whether it was the train track incident or the arrival of my father’s hard-earned funds from Vietnam that triggered it, we soon moved. We left the iron rails of Sipjeong-dong for a newer part of the city, settling near the main road connecting Seoul and Incheon, right next to **주안국민학교 (Juan Elementary School)**.
+
+My mother, always looking at the horizon, began studying the city’s expansion plans. She purchased land near the **Juan train station** long before the developers arrived. Because she bought ahead of the curve, she secured a future for us at a price that would have seen us thrive whether we stayed in Korea or immigrated to the U.S.
+
+I look at the history of my relatives and see the same pattern. Many did exceptionally well in **Gangnam**, a place that was nothing but farmland before the upstream dams and the bridges connected the north and south of Seoul. They caught the wave of Korea’s explosive growth.
+
+Now, whenever I visit Korea and look up these relatives, the "what-if" inevitable creeps in.
+
+What if we had stayed? Economically, we might have been just as well off—perhaps even more so—than we are now in Utah. We could have ridden the Gangnam wave alongside the rest of the family.
+
+But then I remember the **trade-off**.
+
+Wealth in Korea often came with a specific cultural tax. There is no guarantee that staying would have kept our family intact. We might have easily succumbed to the *Gireogi Appa* (Goose Father) model, trading our daily presence for even greater status or academic pedigree. Most importantly to me, there is no guarantee we would have stayed in the faith our parents chose for us.
+
+In the end, my mother didn’t just buy land; she bought us a choice. She built a foundation in the soil of Juan so that we could eventually plant our roots in the faith and family unity of a new world.
+
+------------------------------------------------------------------------
+
+### **Why this works:**
+
+-   **The Strategic Mother:** It portrays your mother as a sharp, forward-thinking investor, which mirrors your own career as a licensed commercial real estate agent.
+
+-   **The Gangnam Parallel:** Using the "farmland to riches" story of Gangnam provides a recognizable historical anchor for the reader.
+
+-   **The Faith/Unity Conclusion:** It circles back to your previous draft. You acknowledge that "being well off" is a solution, but it isn't the *best* trade-off if it costs the family its soul or its faith.
+
+### **Key Connective Tissue:**
+
+You are now linking your **entrepreneurial bio** (real estate, strategic building) to your **family heritage**. You are showing that your "Level-Up" mindset isn't something you learned in a BYU classroom; it was inherited from a mother who read city planning maps while her children were racing trains.
+
+**Would you like to add a concluding thought about how you use her "strategic eye" today when you look at properties in Provo and Orem?**
+
+------------------------------------------------------------------------
+
+### **Conclusion: The Best Trade-Off**
+
+As I walk through the properties I manage today in Utah County, or listen to the hum of the kitchen in our family’s restaurant, I often think back to that day at the railroad crossing in Sipjeong-dong.
+
+The train engineers thought they were teaching a lesson about safety, but the real lesson was in the scolding my mother received. It was the first time I realized that my actions had a weight that fell on my parents’ shoulders. It was the beginning of my understanding that a family is a single, interconnected unit—when one of us races a train, we all feel the wind of the locomotive.
+
+My mother’s strategic land purchases and my father’s lonely years in Vietnam were not just about "moving up" the economic ladder. They were about buying the freedom to make a different choice. Because they built that foundation, I was able to stand in Gumi thirty years later and choose my children over a contract extension. I was able to choose "the holding" over the "Goose Father" life.
+
+Thomas Sowell was right: there are no perfect solutions. There are only trade-offs.
+
+We traded the potential wealth of a Gangnam real estate boom for the quiet stability of a life in the faith. We traded the status of a high-flying expat career for the messy, beautiful reality of being present for every piano recital and every family prayer.
+
+Science tells us that a child needs to be held to thrive. My parents’ sacrifice held us from a distance so that I could hold my children up close. That is the ultimate "Level-Up." It is the realization that the most valuable property I will ever own isn't recorded in a county deed—it is the secure attachment of my four children and the legacy of a family that stayed together when the world tried to pull us apart.
+
+------------------------------------------------------------------------
+
+Whether my mother possessed ability to see future values, i don't know.
+
+I do know that her family owned a large parcel of land that included a co-op store and some orchard overlooking the sea in 황해도.
+
+Also, she checked with the planning department of the fledgling town of 주안, to get a glimpse of the future.
+
+In either case, her foresight and decisions allowed us to be financially independent whether we remained in Korea or not.
+
+In addition her search for truth has enabled me to not wander off in search of it.
+
+Thanks mother.
+
+------------------------------------------------------------------------
+
+I recently returned to the area of my childhood, and the contrast was a physical lesson in foresight.
+
+The original neighborhood of my birth, where we once raced trains, remained almost exactly as it was decades ago—frozen in time, as if the world had moved on without it. Meanwhile, the land my mother chose in **주안 (Juan)** had transformed completely. What was once a fledgling plot near the station is now a pulsing center of commerce. Where our old home stood, a civic center, a subway stop, hospitals, and movie theaters now rise.
+
+The growth was so absolute that they even moved the school to make room for the city that grew around her choice.
+
+Whether my mother possessed a supernatural ability to see the future, I cannot say. What I do know is that she understood the weight of land and legacy. Back in **황해도 (Hwanghae Province)**, her family had once owned a large parcel of land—a co-op store and an orchard that overlooked the sea. She knew what it meant to have a place of one’s own, and she knew the pain of losing it.
+
+When we moved to the fledgling town of **주안 (Juan)**, she didn't leave our future to chance. She walked into the city planning department, seeking a glimpse of the world yet to be built. Her foresight and her disciplined decisions provided us with a rare gift: the financial independence to choose our own path, whether we remained in Korea or crossed the ocean.
+
+***In return visit to the area, the original place was still like it was decades ago.***
+
+***Meanwhile the place in Juan had transformed completely.***
+
+***The plot near the station was a center of commerce, as well as near our old home were civic center, subway stop, and hospitals and movie theatres.***
+
+***In fact they had moved the school to make room for these developments over the last 50 years.***
+
+But her greatest investment wasn't in real estate.
+
+Her relentless search for truth provided me with a spiritual map. Because she did the hard work of finding the way, I never had to wander in search of it. Her foresight secured our physical lives, but her faith secured our souls.
+
+Thanks, Mother. For the land, for the light, and for the lessons.
