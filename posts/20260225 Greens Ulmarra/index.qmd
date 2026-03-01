@@ -9,7 +9,7 @@ execute:
 categories: [heroes]
 ---
 
-Sister K shared a video that moved me.
+Sister K shared a video.
 
 It told the story of Edna Olwyn Warner, an Australian woman whose final wish was to be buried next to her husband in South Korea ^[<https://www.koreaherald.com/article/3219532>]
 
