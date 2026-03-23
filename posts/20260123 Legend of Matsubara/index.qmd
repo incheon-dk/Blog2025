@@ -1,5 +1,5 @@
 ---
-title: "Miho no Matsubara"
+title: "Miho Pine Forest"
 author: "DK"
 date: "2026-01-23"
 draft: yes
@@ -20,7 +20,9 @@ But when we showed up in the morning there was a 12 passenger van waiting for us
 
 The people of Asahi Intecc was taking the scenic route
 
-First stop was place called Miho no Matsubara (Miho Pine Forest) near Shimizu.
+First stop was place called Miho no Matsubara (三保の松原)[^1] near Shimizu (清水区).
+
+[^1]: https://en.wikipedia.org/wiki/Miho_no_Matsubara
 
 From there one can see Mt. Fuji in the distance on a clear day.
 
@@ -32,7 +34,7 @@ We spent time with people of Ohmiya Seki.
 
 The father, as the chairman was overseeing the business transfer to his CEO son.
 
-On the way back we stopped at a rest area called Fujikawa and there I saw Mount Fuji
+On the way back we stopped at a rest area called Fujikawa (富士川) rest area and there I saw Mount Fuji
 
 ![](images/IMG_0862-EFFECTS.jpg)
 

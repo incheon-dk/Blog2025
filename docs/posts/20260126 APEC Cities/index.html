@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -200,44 +166,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>Korean provinces are named after its leading cities. For example, the province of 충청도 derives its name from cities of 충주 and 청주.</p>
-<p>Likewise 경상도 is named after 경주 and 상주.</p>
-<p>We lived about an hour from 경주, 55km the site of Shilla Dynasty capital But we didn’t fully take advantage of it. Much like visiting downtown DC when visitors came, when we lived in Maryland.</p>
-<p>We bought a sterilizer made in Barcelona, Spain. First the installers came, with their local wine hid away inside the chamber. They were a gregarious bunch. Played a soccer match A local version of Spain vs Korea, foreshadowing the 2002 World Cup.</p>
+<p>Korean provinces are named after its leading cities. For example, the province of 충청도 derives its name from cities of <strong>충</strong>주 and <strong>청</strong>주.</p>
+<p>Likewise 경상도 is named after <strong>경</strong>주 and <strong>상</strong>주.</p>
+<p>We lived about an hour from 경주, 55km away from the site of Shilla (신라) Dynasty capital.</p>
+<p>But we didn’t fully take advantage of it. Much like visiting downtown DC only when visitors came, when we lived in Maryland.</p>
+<p>We bought a EtO gas sterilizer made near Barcelona, Spain.</p>
+<p>First the installers came, with their local wine hidden away inside the chamber. They were a gregarious bunch. Played a soccer match. A local version of Spain vs Korea, foreshadowing the 2002 World Cup.</p>
 <p>Then the owners came. They explained they go to installation sites, wherever the equipment is installed.</p>
-<p>I was impressed. Vowed to follow their leads Followe</p>
+<p>I was impressed. Vowed to follow their leads</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>locations <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"구미"</span>, <span class="st">"동대구역"</span>, <span class="st">"경주"</span>, <span class="st">"부산역"</span>),</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">lat  =</span> <span class="fu">c</span>(<span class="fl">36.1195</span>, <span class="fl">35.8802</span>, <span class="fl">35.8562</span>, <span class="fl">35.1151</span>),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">lon  =</span> <span class="fu">c</span>(<span class="fl">128.3446</span>, <span class="fl">128.6286</span>, <span class="fl">129.2247</span>, <span class="fl">129.0414</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>(locations) <span class="sc">|&gt;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addProviderTiles</span>(providers<span class="sc">$</span>CartoDB.Positron) <span class="sc">|&gt;</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addCircleMarkers</span>(</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> <span class="sc">~</span>lon,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> <span class="sc">~</span>lat,</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">radius =</span> <span class="dv">7</span>,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">stroke =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">weight =</span> <span class="dv">1</span>,</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">fillOpacity =</span> <span class="fl">0.8</span>,</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">popup =</span> <span class="sc">~</span>name,</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="sc">~</span>name</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fitBounds</span>(</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng1 =</span> <span class="fu">min</span>(locations<span class="sc">$</span>lon),</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat1 =</span> <span class="fu">min</span>(locations<span class="sc">$</span>lat),</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng2 =</span> <span class="fu">max</span>(locations<span class="sc">$</span>lon),</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat2 =</span> <span class="fu">max</span>(locations<span class="sc">$</span>lat)</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-28da533c305ef38fcc73" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-28da533c305ef38fcc73">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[36.1195,35.8802,35.8562,35.1151],[128.3446,128.6286,129.2247,129.0414],7,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.8},null,null,["구미","동대구역","경주","부산역"],null,["구미","동대구역","경주","부산역"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[35.1151,36.1195],"lng":[128.3446,129.2247]},"fitBounds":[35.1151,128.3446,36.1195,129.2247,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-ea225a0599ac0423bbab" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-ea225a0599ac0423bbab">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[36.1195,35.8802,35.8562,35.1151],[128.3446,128.6286,129.2247,129.0414],7,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.8},null,null,["구미","동대구역","경주","부산역"],null,["구미","동대구역","경주","부산역"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[35.1151,36.1195],"lng":[128.3446,129.2247]},"fitBounds":[35.1151,128.3446,36.1195,129.2247,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
+<p>Often in life, we live near a city or locale that we should visit and learn from.</p>
+<p>We don’t realize how valuable they are until a visitor points it out.</p>
+<p>I have missed out learning from surrrounding areas of both Korea and Washington DC. As well as when I visited sites in Asia and Europe unprepared.</p>
+<p>I hope that I am better prepared in future visits.</p>
 
 
 

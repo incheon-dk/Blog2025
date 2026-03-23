@@ -6,15 +6,23 @@ draft: yes
 categories: [location]
 ---
 
-I was born in a place called **부평 십정동 33번지 (33 Sipjeong-dong, Bupyeong)**, in what is now the northern part of Incheon. Our lives were divided by the railroad tracks: we lived on the south side, and my aunt lived on the north. In those days, we didn't have many toys or structured playgrounds. The tracks were our source of fun—and our greatest adversary.
+I was born in a place called 부평^[부평 십정동 33번지 (33 Sipjeong-dong, Bupyeong)], in what is now the northern part of Incheon. 
 
-We spent our days playing in the gravel and heat of the line. Our favorite game was a dangerous one: trying to outrun the trains as they approached the crossing. Looking back, I realize we must have been the bane of the train engineers’ existence. They watched us day after day, waiting for an opportunity to teach us a lesson that the tracks themselves hadn't yet delivered.
+Our lives were divided by the railroad tracks: we lived on the south side, and my aunt lived on the north. 
+
+In those days, we didn't have many toys or structured playgrounds. The tracks were our source of fun—and our greatest adversary.
+
+We spent our days playing in the gravel and heat of the line. Our favorite game was a dangerous one: trying to outrun the trains as they approached the crossing. 
+
+Looking back, I realize we must have been the bane of the train engineers’ existence. They watched us day after day, waiting for an opportunity to teach us a lesson that the tracks themselves hadn't yet delivered.
 
 The tracks didn't just divide the town; they were the barrier between my home and my aunt’s. On one particular day, a slow-moving train and its crew finally laid their trap.
 
 They didn't just blow the whistle; they stopped. They caught three of us.
 
-We weren't just troublemakers anymore; we were "the catch" of the day. The engineers didn't want our apologies; they wanted our mother. I still remember the scene as they marched us home—the severe scolding my mother received, the embarrassment of a parent being held accountable for the wildness of her children.
+We weren't just troublemakers anymore; we were "the catch" of the day. The engineers didn't want our apologies; they wanted our mother. 
+
+I still remember the scene as they marched us home—the severe scolding my mother received, the embarrassment of a parent being held accountable for the wildness of her children.
 
 ```{r}
 # install.packages("leaflet")  # only if needed
@@ -64,11 +72,11 @@ Whether that event triggered or my father's funds from Vietnam triggered it, we 
 
 This time away from the train tracks, near the main road that connected Seoul and Incheon and next to the 주안국민학교.
 
-Mom checking the plan of the city purchased land near the 주안 train station.
+Mom checked the plan of the city then purchased land near the 주안 train station.
 
 Because these purchases were made well ahead of the planned expansion mom was able to get a good price.
 
-Because of the timely purchase we would have been fine whether we immigrated to US or stayed in Korea.
+Due to these timely purchase we would have been fine whether we immigrated to US or stayed in Korea.
 
 In fact many of our relatives have done well in real estate investments in Gangnam area of Seoul, which used to be farm lands, before the dam upstream and multiple bridges connecting the north and southern part of the city.
 
@@ -82,7 +90,7 @@ We may have been be well of like some of our relatives.
 
 However, there is no guarantee that we would have stayed together and not become a goose family.
 
-Nor would we have stayed in the faith, chosen by our —parents.
+Nor would we have stayed in the faith, chosen by our parents.
 
 ------------------------------------------------------------------------
 

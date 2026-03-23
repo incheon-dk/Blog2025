@@ -3,30 +3,28 @@ title: "APEC Cities"
 author: "DK"
 date: "2026-01-26"
 draft: yes
+execute: 
+  echo: false
+  warning: false
+  messages: false
 categories: [korean cities]
 ---
 
-Korean provinces are named after its leading cities.
-For example, the province of 충청도 derives its name from cities of 충주 and 청주.
+Korean provinces are named after its leading cities. For example, the province of 충청도 derives its name from cities of **충**주 and **청**주.
 
-Likewise 경상도 is named after 경주 and 상주.
+Likewise 경상도 is named after **경**주 and **상**주.
 
-We lived about an hour from 경주, 55km the site of Shilla Dynasty capital 
-But we didn't fully take advantage of it.
-Much like visiting downtown DC when visitors came, when we lived in Maryland.
+We lived about an hour from 경주, 55km away from the site of Shilla (신라) Dynasty capital.
 
-We bought a sterilizer made in Barcelona, Spain.
-First the installers came, with their local wine hid away inside the chamber.
-They were a gregarious bunch.
-Played a soccer match
-A local version of Spain vs Korea, foreshadowing the 2002 World Cup.
+But we didn't fully take advantage of it. Much like visiting downtown DC only when visitors came, when we lived in Maryland.
 
-Then the owners came.
-They explained they go to installation sites, wherever the equipment is installed.
+We bought a EtO gas sterilizer made near Barcelona, Spain.
 
-I was impressed.
-Vowed to follow their leads
-Followe
+First the installers came, with their local wine hidden away inside the chamber. They were a gregarious bunch. Played a soccer match. A local version of Spain vs Korea, foreshadowing the 2002 World Cup.
+
+Then the owners came. They explained they go to installation sites, wherever the equipment is installed.
+
+I was impressed. Vowed to follow their leads
 
 ```{r}
 library(leaflet)
@@ -57,3 +55,11 @@ leaflet(locations) |>
   )
 
 ```
+
+Often in life, we live near a city or locale that we should visit and learn from.
+
+We don't realize how valuable they are until a visitor points it out.
+
+I have missed out learning from surrrounding areas of both Korea and Washington DC. As well as when I visited sites in Asia and Europe unprepared.
+
+I hope that I am better prepared in future visits.
