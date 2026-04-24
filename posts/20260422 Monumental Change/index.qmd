@@ -11,7 +11,9 @@ A quote from 225 years ago,
 >
 > "I am far from satisfied with my past works: from today on I shall take a new way"
 
-^[Attributed to a conversation Beethoven had with his close friend and violinist **Wenzel Krumpholz** around **1801 or 1802 (AI Summary)**]
+[^1]
+
+[^1]: Attributed to a conversation Beethoven had with his close friend and violinist **Wenzel Krumpholz** around **1801 or 1802 (AI Summary)**
 
 The work that symbolizes and defines Beethoven’s New Path is the **Symphony No. 3 in E-flat major, Op. 55**, better known as the ***Eroica (Heroic)*** (composed 1803–1804).
 
@@ -37,7 +39,9 @@ In their younger days, they were simply too busy squeezing out a life to capture
 
 However, they did leave behind both instruction and evidence on how to navigate adversity.
 
-They lived through a world in chaos—-a time when nations and families were at odds and the economy was in such freefall that the currency was devalued by 90%.^[**Currency Reform of 1962:** In June 1962, the government introduced a new currency, replacing the Hwan with a new Won (10 Hwan = 1 Won) as part of a move to manage inflation and reorganize the monetary system.]
+They lived through a world in chaos—-a time when nations and families were at odds and the economy was in such freefall that the currency was devalued by 90%.[^2]
+
+[^2]: **Currency Reform of 1962:** In June 1962, the government introduced a new currency, replacing the Hwan with a new Won (10 Hwan = 1 Won) as part of a move to manage inflation and reorganize the monetary system.
 
 In that crucible, they didn't consult experts or chase the latest trends.
 
@@ -47,7 +51,7 @@ They became masters of the calibrated response.
 
 They didn't overreact in panic, nor did they under react in denial. They reacted just enough, with an exquisite timing that allowed them to overcome the immediate crisis while preserving the future for the family they were raising.
 
-![](images/055371BC-4AC7-440B-9AB4-EB742DA81385-EFFECTS.jpg)
+![](images/20260418_092816.jpg)
 
 ------------------------------------------------------------------------
 
