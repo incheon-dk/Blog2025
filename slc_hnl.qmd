@@ -1,0 +1,32 @@
+---
+title: "Flight Route Map"
+format: html
+execute:
+  echo: true
+---
+
+```{r}
+library(leaflet)
+
+# Create data frame of locations
+locations <- data.frame(
+  name = c("Salt Lake City (SLC)", "Honolulu (HNL)"),
+  lat = c(40.7608, 21.3069),
+  lon = c(-111.8910, -157.8583)
+)
+
+# Create leaflet map
+leaflet(locations) %>%
+  addTiles() %>%
+  addMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    popup = ~name
+  ) %>%
+  addPolylines(
+    lng = locations$lon,
+    lat = locations$lat,
+    color = "blue",
+    weight = 2
+  )
+```
