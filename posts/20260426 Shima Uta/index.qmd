@@ -9,13 +9,13 @@ I recently traveled nearly 3,000 miles to an island in the Pacific.
 
 As the flight stretched over six hours, I found myself wondering anew at the technology--which I barely understand--and the trust that allows hundreds of passengers to cross the vast Pacific in comfort.
 
-I thought of the guidance tools that locate a small island, guide its travel, and land the aircraft on the designation runway 8R/26L.[^1]
+I thought of the navigation and guidance tools that locate that small island, guide the plane in its travel, and land the 300K pound aircraft on the designated runway 8R/26L.[^1]
 
 [^1]: Modern aircraft locating and guiding technology relies on a hybrid of satellite-based Global Navigation Satellite Systems (GNSS/GPS), ground-based radio beacons (VOR/DME), and Inertial Navigation Systems (INS) to provide precise, continuous positioning. These technologies enable advanced navigation, Automated Dependent Surveillance-Broadcast (ADS-B) tracking, and precision, low-visibility approaches via Instrument Landing Systems (ILS).
 
 Our destination is a microscopic fraction of the Pacific.
 
-In terms of landmass, the proportion of this island relative to the Pacific Ocean is almost infinitesimally small—like a single grain of sand in a large swimming pool, as AI describes it.
+In terms of landmass, the proportion of this island relative to the Pacific Ocean is almost infinitesimally small—like a single grain of sand in a large swimming pool, per AI.
 
 Mathematically, the islands represent just 0.017%, or roughly 1/6,000th, of the ocean’s surface.[^2]
 
@@ -27,7 +27,7 @@ This comparison can be expanded upward, where the scale of our world shrinks eve
 
 Our Earth, when compared to the Sun, is even more lopsided; the ratio of their surface areas is roughly half that of Hawaii to the Pacific.
 
-![](images/20260426_200709.jpg)
+![](images/IMG_5910 (1)-EFFECTS.jpg)
 
 ------------------------------------------------------------------------
 
@@ -44,6 +44,10 @@ We regularly board planes without knowing the intricate navigational details or 
 We surrender to the truth of the instrumentation and the data supplied by the various navigation and guidance systems. And the skill of the crew that use that information to power through the airspace.
 
 It is a sobering realization: we are utterly dependent on correct relationships—the relationship between the wing and the air, the pilot and the coordinates.
+
+> *What kind of navigation and guidance systems do we rely on as we traverse this life on this earth?*
+
+![](images/20260411_134027~2-01.jpg)
 
 ------------------------------------------------------------------------
 
