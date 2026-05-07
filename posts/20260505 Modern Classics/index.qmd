@@ -29,7 +29,7 @@ With a classical music channel in my ears and the vast majority of the passenger
 
 ------------------------------------------------------------------------
 
-The story, written by an American author, Pearl Sydenstricker Buck (1892–1973), who spent much of her early life in China, chronicles the epic rise and fall of Wang Lung.
+The story, written by an American author, Pearl Sydenstricker Buck^[[Bio](https://en.wikipedia.org/wiki/Pearl_S._Buck), [Org](https://www.pearlsbuck.org)] (1892–1973), who spent much of her early life in China, chronicles the epic rise and fall of Wang Lung.
 
 He begins as a humble Chinese farmer in the early 20th century, but his life changes when he marries O-Lan, a former slave from the town's most prominent family, the House of Hwang.
 
@@ -61,6 +61,8 @@ In reality, the engine of his prosperity was O-Lan.
 
 As the Proverbs suggest, wealth can be inherited or acquired, but a prudent partner is a gift of a different order.
 
+> 집과 재물은 조상에게서 상속하거니와 슬기로운 아내는 여호와께로서 말미암느니라
+>
 > Houses and wealth are inherited from parents, but a prudent wife is from the Lord.
 
 Proverbs 19:14 (NIV)
