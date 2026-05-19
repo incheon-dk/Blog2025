@@ -9,6 +9,8 @@ execute:
 categories: [home team]
 ---
 
+![](images/IMG_5555-EDIT.jpg)
+
 ```{r}
 library(leaflet)
 library(dplyr)
@@ -142,8 +144,6 @@ The home team kept winning, and with every victory, the crowd grew larger.
 Soon, the stadium could no longer hold the crowd or their energy, and the celebration spilled out into the streets, a sea of rhythmic chanting and shared euphoria.
 
 > 대\~한민국 !!!
-
-![](images/IMG_5555-EDIT.jpg)
 
 I remember being surprised to learn that Koreans that I knew living abroad—specifically from places like Los Angeles, California—were buying plane tickets and flying across the Pacific just to watch the matches in person.
 
