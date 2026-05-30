@@ -5,7 +5,7 @@ date: "2026-05-22"
 categories: [dining, navigation]
 ---
 
-When navigating a new town or searching for a place to eat, my approach relies on a specific philosophy: it is not **either/or**, but rather a balance of **both**.
+When navigating a new town or searching for a place to eat, my approach relies on a specific philosophy: it is not **either/or**, but rather a balance of **and/both**.
 
 Before I travel to an unfamiliar city, I consult online navigation to study the digital representation.
 
