@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="DK">
+<meta name="dcterms.date" content="2026-06-04">
 
-<title>Flight Route Map – Selected Thoughts</title>
+<title>Yoked Burden – Selected Thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,29 +68,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Selected Thoughts</span>
     </a>
   </div>
@@ -133,7 +91,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -154,63 +112,100 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Yoked Burden</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">agrarian</div>
+                <div class="quarto-category">domestication</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>DK </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 4, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Flight Route Map</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<p>In the early 1960s, the Nobel Literature and Pulitzer Prize-winning author Pearl S. Buck visited the South Korean countryside.</p>
+<p>During her travels through the rural landscape, she witnessed a scene that stopped her and ask a question: a farmer was walking slowly down the dirt road, leading his ox home after a long, day of labor in the fields.</p>
+<p>What struck her as odd was that the man was strapping a heavy <em>jige</em> (지게)—a traditional Korean wooden A-frame backpack—to his own shoulders, manually carrying his own share of the harvested hay rather than piling it onto the animal’s back.</p>
+<p>Intrigued, she approached the farmer and asked why he didn’t simply let the ox carry the entire load. The man replied simply:</p>
+<blockquote class="blockquote">
+<p>“I worked all day in the field, but so did the cow.</p>
+<p>It is only fitting that we both carry our own burdens home.”</p>
+</blockquote>
+<p>In old Korea, owning livestock was a luxury, representing the primary engine of a household’s survival.</p>
+<p>To protect and care for these invaluable animals, farmhouses were built with an integrated <em>oeyanggan</em> (외양간)—a built-in cattle stall located directly within the main structure of the home, typically right off the kitchen area.</p>
+<p>This design allowed the heat from the family’s <em>ondol</em> (underfloor heating) cooking fires to keep the animal warm during harsh winters.</p>
+<p>Because of this profound proximity, these animals were never viewed merely as disposable beasts of burden or cold agricultural assets.</p>
+<p>They were treated as partners in survival—integral members of a family who labored together by day, rested together by night, and lived under the proverbial same roof.</p>
+<p><img src="images/IMG_1617.JPG" class="img-fluid"></p>
+<section id="the-living-network" class="level3">
+<h3 class="anchored" data-anchor-id="the-living-network"><strong>The Living Network</strong></h3>
+<p>Some thirty years after Pearl S. Buck’s journey through the countryside, I found myself standing in that very same reality. I visited a small, rural town near Hyeonchungsa (현충사, <strong>顯忠祠</strong> ), located about an hour north of Daejeon (대전, 大田)</p>
+<p>I was there with Sister K, who was introducing me to her extended family.</p>
+<p>Her father’s older brother lived in a historic home that had been handed down through generations of oldest sons.</p>
+<p>Walking down the path, the fabric of the community revealed itself: just a few doors away lived Sister K’s grandfather’s brother.</p>
+<p>Further down the road stood the homes of her <em>yukchon</em> (육촌)—her second cousins. In fact, the majority of the houses in the entire village belonged to relatives of the same clan.</p>
+<p>Surrounding this tightly knit web of homes were active fields and dedicated spaces for domesticated animals.</p>
+<p>The family welcomed us with utmost hospitality, insisting that we take the main bedroom for our stay.</p>
+<p>To accommodate us, they quietly moved their own sleeping quarters into a side room—one that had been directly converted from its original use as an <em>oeyanggan</em> (외양간), the old cattle stall.</p>
+<p>It was July, and the heavy summer heat of the day was echoed in the evening by an absolute euphony of cicadas drumming from trees that surrounded their ancestral home.</p>
+<p>During our stay, we walked up a nearby hill to visit the family grave site, where generations of ancestors overlooked the very fields their descendants were still farming.</p>
+<p>For someone like me—who grew up entirely in urban environments, far removed from agriculture and livestock, and as the child of refugees from the North who lived without the embrace of an extended family network—this visit was deeply jarring.</p>
+<p>It was a profound shock to my system to see a family not just surviving, but genuinely thriving within a rural, agricultural ecosystem.</p>
+<p>I was being introduced firsthand to an entirely different era—a way of life where mankind depended fully on the raw strength of animals, and where people, in turn, took sacred care of the animals that sustained them.</p>
+<p><img src="images/IMG_801.jpg" class="img-fluid"></p>
+</section>
+<section id="the-tectonic-shift" class="level3">
+<h3 class="anchored" data-anchor-id="the-tectonic-shift"><strong>The Tectonic Shift</strong></h3>
+<p>Last year, Sister K’s uncle, who had hosted us so graciously decades ago, passed away at the age of ninety-six. He had lived in that very same ancestral home until his twilight years, when he finally moved in with his son to receive necessary in-home care.</p>
+<p>With his passing, and with the steady departure of my own parents’ generation, we have lost something completely irretrievable: our innate, baseline ability to connect with the agrarian land and work hand-in-hand with domesticated beasts.</p>
+<p>Improved roads, engineered land, and industrial machinery have permanently replaced that venerable scenery.</p>
+<p>Between the 1960s and the 1990s, South Korea underwent a lightning-fast transformation, completely swapping its ancient agricultural foundation for a hyper-industrialized society.</p>
+<p>Pearl S. Buck caught the twilight of that traditional world, and my own visit thirty years later captured a snapshot of a rapidly disappearing heritage.</p>
+<p>Today, we are standing on the precipice of a remarkably similar tectonic change.</p>
+<p>Physical labor and intellectual, creative work are being systematically replicated and replaced by robotics and artificial intelligence.</p>
+<p>It is a pivot point that understandably induces an undercurrent of deep anxiety, fueled by the cold uncertainty of what lies ahead for humanity.</p>
+<p>Yet, the solution to this modern existential dread seems to have been uttered some sixty years ago, on a quiet dirt road, by a farmer returning home from a day of shared labor with his ox.</p>
+<p>As we step out into this unmapped digital future, perhaps our internal orientation requires us to update his ancient philosophy for the machine age:</p>
+<blockquote class="blockquote">
+<p><em>“I have studied and learned all of my days, but so did the robot and the AI.</em></p>
+<p><em>It is only fitting that we both carry our own burdens to our eternal destiny and our home.”</em></p>
+</blockquote>
+<p><img src="images/east_sea.jpg" class="img-fluid"></p>
 
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create data frame of locations</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>locations <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"Salt Lake City (SLC)"</span>, <span class="st">"Honolulu (HNL)"</span>),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">lat =</span> <span class="fu">c</span>(<span class="fl">40.7608</span>, <span class="fl">21.3069</span>),</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">lon =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">111.8910</span>, <span class="sc">-</span><span class="fl">157.8583</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create leaflet map</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>(locations) <span class="sc">%&gt;%</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addMarkers</span>(</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> <span class="sc">~</span>lon,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> <span class="sc">~</span>lat,</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">popup =</span> <span class="sc">~</span>name</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addPolylines</span>(</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> locations<span class="sc">$</span>lon,</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> locations<span class="sc">$</span>lat,</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"blue"</span>,</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">weight =</span> <span class="dv">2</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-1f3765bff0d835f1ef12" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-1f3765bff0d835f1ef12">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[40.7608,21.3069],[-111.891,-157.8583],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Salt Lake City (SLC)","Honolulu (HNL)"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addPolylines","args":[[[[{"lng":[-111.891,-157.8583],"lat":[40.7608,21.3069]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"blue","weight":2,"opacity":0.5,"fill":false,"fillColor":"blue","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[21.3069,40.7608],"lng":[-157.8583,-111.891]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
