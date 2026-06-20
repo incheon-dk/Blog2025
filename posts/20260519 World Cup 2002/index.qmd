@@ -11,6 +11,8 @@ categories: [home team]
 
 ![](images/IMG_5555-EDIT.jpg)
 
+## World Cup 2002 Host Cities
+
 ```{r}
 library(leaflet)
 library(dplyr)
@@ -195,7 +197,7 @@ That voice was Sister K saying,
 
 > It is time for us to go back to our home in America.
 
-![](images/2CDAA2B1-783B-42B2-B239-73BE2476AE70 Copy.JPG)
+![](images/2CDAA2B1-783B-42B2-B239-73BE2476AE70%20Copy.JPG)
 
 ------------------------------------------------------------------------
 
@@ -208,3 +210,73 @@ The challenge is knowing when a particular season has expired, and realizing tha
 More importantly, it is recognizing the difference between a real home and a temporary stadium—understanding that a global organization and multinational companies, by its very nature, is primarily built to host an event and to conduct businesses across national border, not to look after the quiet well-being of a person or a family.
 
 That essential work--maintaining well-being of an individual and family--will continue without notice and without much fanfare.
+
+## World Cup 2026 Host Cities
+
+```{r}
+library(leaflet)
+library(dplyr)
+
+wc2026 <- data.frame(
+  city = c(
+    "Vancouver", "Toronto",
+    "Seattle", "San Francisco Bay Area", "Los Angeles",
+    "Kansas City", "Dallas", "Houston",
+    "Atlanta", "Miami",
+    "Boston", "New York / New Jersey",
+    "Philadelphia", "Baltimore / Washington",
+    "Monterrey", "Guadalajara", "Mexico City"
+  ),
+  country = c(
+    "Canada", "Canada",
+    "USA", "USA", "USA",
+    "USA", "USA", "USA",
+    "USA", "USA",
+    "USA", "USA",
+    "USA", "USA",
+    "Mexico", "Mexico", "Mexico"
+  ),
+  lat = c(
+    49.2827, 43.6532,
+    47.6062, 37.7749, 34.0522,
+    39.0997, 32.7767, 29.7604,
+    33.7490, 25.7617,
+    42.3601, 40.7128,
+    39.9526, 38.9072,
+    25.6866, 20.6597, 19.4326
+  ),
+  lon = c(
+   -123.1207, -79.3832,
+   -122.3321, -122.4194, -118.2437,
+    -94.5786, -96.7970, -95.3698,
+    -84.3880, -80.1918,
+    -71.0589, -74.0060,
+    -75.1652, -77.0369,
+   -100.3161, -103.3496, -99.1332
+  )
+)
+
+leaflet(wc2026) |>
+  addProviderTiles("CartoDB.Positron") |>
+  addCircleMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    radius = 6,
+    stroke = TRUE,
+    fillOpacity = 0.8,
+    popup = ~paste0(
+      "<b>", city, "</b><br>",
+      country
+    )
+  ) |>
+  addLabelOnlyMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    label = ~city,
+    labelOptions = labelOptions(
+      noHide = FALSE,
+      direction = "top",
+      textsize = "11px"
+    )
+  )
+```

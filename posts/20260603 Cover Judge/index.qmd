@@ -26,7 +26,9 @@ Universally celebrated for its striking, saturated color palette, meticulous det
 
 Structurally, it is a short volume. It spans just 196 pages, but a significant portion, 29 percent, of its footprint is dedicated to academic requirements: 29 pages of chapter notes, a 23-page bibliography, and a 5-page index.
 
-The author is a Fellow in Theology at St John's College at the University of Oxford—a pedigree that promises a masterclass in prose.^[doi 10.1017/9781009519847 , https://www.cambridge.org/core/books/theological-imagination/theological-imagination/A4B27233CFA72BC19DEDFBF4660DF308]
+The author is a Fellow in Theology at St John's College at the University of Oxford—a pedigree that promises a masterclass in prose.[^2]
+
+[^2]: doi 10.1017/9781009519847 , https://www.cambridge.org/core/books/theological-imagination/theological-imagination/A4B27233CFA72BC19DEDFBF4660DF308
 
 Yet, as I turned through the pages, which were strewn with 35 separate illustrations and figures, I found myself continuously waiting for enlightenment.
 

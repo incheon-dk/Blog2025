@@ -29,7 +29,9 @@ With a classical music channel in my ears and the vast majority of the passenger
 
 ------------------------------------------------------------------------
 
-The story, written by an American author, Pearl Sydenstricker Buck^[[Bio](https://en.wikipedia.org/wiki/Pearl_S._Buck), [Org](https://www.pearlsbuck.org)] (1892–1973), who spent much of her early life in China, chronicles the epic rise and fall of Wang Lung.
+The story, written by an American author, Pearl Sydenstricker Buck[^1] (1892–1973), who spent much of her early life in China, chronicles the epic rise and fall of Wang Lung.
+
+[^1]: [Bio](https://en.wikipedia.org/wiki/Pearl_S._Buck), [Org](https://www.pearlsbuck.org)
 
 He begins as a humble Chinese farmer in the early 20th century, but his life changes when he marries O-Lan, a former slave from the town's most prominent family, the House of Hwang.
 

@@ -6,11 +6,11 @@ echo: false
 categories: [hosting]
 ---
 
-From September 2012 to September 2016, I was tasked with coordinating a technology transfer between a Japanese catheter manufacturer in Shizuoka　静岡県 and facilities in Utah and Texas.
+From September 2012 to September 2016, I coordinated a technology transfer between a Japanese catheter manufacturer in Shizuoka 静岡県 and facilities in Utah and Texas.
 
-Our work involved frequent visits to a company that had been integrated into Asahi Intecc—trips that almost always fell in the crisp transition of autumn or in the middle of winter.
+The work involved frequent visits to a company that had been integrated into Asahi Intecc—trips that almost always fell in the crisp transition of autumn or in the middle of winter.
 
-We never saw the cherry blossoms of Hanami(花見).
+We never saw the cherry blossoms of Sakura (桜) or Hanami(花見).
 
 Instead, we experienced Shizuoka by its moderate temperatures and the heavy humidity that made the winter air feel far colder than the thermometer suggested.
 
@@ -18,7 +18,7 @@ It was in this climate that a unique bond formed between our R&D Director and th
 
 They shared a passion for motorcycles, specifically BMWs.
 
-One winter day, after a conversation about their shared hobby, Mr. Watanabe arrived the next morning in full riding gear. He didn’t just bring his motorcycle for our director to admire; he insisted he try it out.
+One winter day, after a conversation about their shared hobby, Mr. Watanabe arrived the next morning in full riding gear. He didn’t just bring his motorcycle for our director to admire; he insisted our R&D Director try it out.
 
 ![](images/DSCN2620.JPG)
 
@@ -80,10 +80,9 @@ During those years of bike rides, temple visits, and shared drinks, Mrs. Watanab
 
 I did not know Mr. Watanabe before the project, and I will likely never see him again.
 
-But in those years of working together, I learned the meaning of hosting with love. 
+But in those years of working together, I learned the meaning of hosting with love.
 
-> We love him, because he first loved us.
-1 John 4:19
+> We love him, because he first loved us. 1 John 4:19
 
 It is more than the logistics of a visit; it is about doing one’s duty as a friend and a human being—even, and especially, when the unseen burdens of life are at their heaviest.
 
