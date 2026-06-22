@@ -1,7 +1,7 @@
 ---
 title: "Weighty Words"
 author: "DK"
-date: "2025-06-18"
+date: "2026-06-18"
 draft: yes
 categories: [understanding]
 ---
@@ -24,7 +24,7 @@ But during that pivotal May and the subsequent summer months, a much deeper educ
 
 I wasn't just learning a language; I was filling my mind with principles that would serve me for the rest of my life.
 
----
+------------------------------------------------------------------------
 
 The school I attended, Springhill Lake Elementary, had no ESL program for second-language learners because, quite simply, there were no other students like me.
 
@@ -34,7 +34,7 @@ Isolated behind a literal wall from my peers, I was given a mechanical device to
 
 This mechanical isolation was a minor improvement over schoolyard slang, but the true trajectory of my life was being shaped elsewhere, beyond those temporary school provided walls.
 
----
+------------------------------------------------------------------------
 
 The antidote to my isolation arrived in the form of a volunteer: Mrs. Johnson, the wife of our local congregation's Bishop.
 
@@ -42,7 +42,7 @@ She didn't use mechanical tools or linguistic shortcuts. Instead, she sat with m
 
 Her voice and undivided attention provided a refreshing sanctuary from children's television programs and mechanical devices that were substitues and used to fill my days at school.
 
----
+------------------------------------------------------------------------
 
 At home, my parents provided the final, crucial layers to this curriculum.
 
@@ -56,7 +56,7 @@ I devoured them and memorizing key events and its heroes.
 
 Looking back, my true curriculum during those first few months in America was forged by a very specific coalition: the patient reading sessions with Mrs. Johnson, the extended support of a church community, the dedication of my parents and sisters, and the ancient stories inside those volume of books in Korean.
 
----
+------------------------------------------------------------------------
 
 By modern standards, these resources were scarce and hardly adequate.
 
