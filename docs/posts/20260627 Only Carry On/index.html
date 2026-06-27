@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="DK">
+<meta name="dcterms.date" content="2026-06-27">
 
-<title>Flight Route Map – Selected Thoughts</title>
+<title>Carry On – Selected Thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,29 +68,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Selected Thoughts</span>
     </a>
   </div>
@@ -133,7 +91,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -154,63 +112,109 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Carry On</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">necessary</div>
+                <div class="quarto-category">burden</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>DK </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 27, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Flight Route Map</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<p>Developed a business habit during the travel within Asian countries and further confirmed during transit from North America.</p>
+<p>Due to frequent flight delays and the possibility of lost luggage, followed this unwritten rule</p>
+<blockquote class="blockquote">
+<p>No Check-In luggage, just what you can carry with you to the final destination.</p>
+</blockquote>
+<p>Transitioning to carry-on-only required a shift in mindset.</p>
+<p>It meant leaving the “just-in-case” items at home along with “nice-to-have” on the plane items.</p>
+<p>Accepting logistical trade-offs.</p>
+<p>If a trip exceeded a week, hotel laundry became a necessity.</p>
+<p>My packing philosophy shifted from preventative overpacking to <em>just-in-time acquisition</em>:</p>
+<p><em>If I absolutely need it, I’ll buy it when I get there.</em></p>
+<p>This constraint sounded like a recipe for deprivation.</p>
+<p>But during our Shizuoka séjour days, it proved to be the ultimate travel hack.</p>
+<p><img src="images/20260626_080516~2.jpg" class="img-fluid"></p>
+<section id="the-inflexible-itinerary" class="level3">
+<h3 class="anchored" data-anchor-id="the-inflexible-itinerary">The Inflexible Itinerary</h3>
+<p>Our business trips to Japan were tightly orchestrated.</p>
+<p>Both on the ground and in the air, the itinerary was planned and set with rigor and precision as the Bullet Train (新感線).</p>
+<p>Even an ordinary trip resembled a logistical plan for a visiting dignitary:</p>
+<ul>
+<li><p><strong>The Air:</strong> An early morning departure from Salt Lake City (SLC) to Seattle (SEA), followed by a dash to catch Delta Flight DL 167 to Narita Airport (NRT), arriving in the afternoon around 2:00 PM.</p></li>
+<li><p><strong>The Ground:</strong> A quick transfer to the Narita Express down to Tokyo Station. There, H-san (さん) would meet us at the hotel entrance, holding Shinkansen tickets in hand.</p></li>
+<li><p><strong>The Train:</strong> Typically, we caught the <em>Hikari 705</em>, departing Tokyo at exactly 9:03 AM and arriving into Hamamatsu Station at 10:27 AM.</p></li>
+</ul>
+<p>The evenings were equally packed, often starting with a reunion in Roppongi (六本木) for dinner with H-san’s high school friend.</p>
+<p>I don’t think H San ever lost a foreign visitor and rarely deviated from his set schedule. I wasn’t about to be the first one to break both.</p>
+<p>This complex, schedule worked beautifully—as long as there were no surprises.</p>
+<p>But international travel, as in life, is full of surprises. Else what will we talk about after the travel.</p>
+<p><img src="images/IMG_3881.jpg" class="img-fluid"></p>
+</section>
+<section id="the-fork-in-the-road-at-slc" class="level3">
+<h3 class="anchored" data-anchor-id="the-fork-in-the-road-at-slc">The Fork in the Road at SLC</h3>
+<p>The test of our travel philosophy came during one departure from Salt Lake City. Our morning flight was delayed, immediately jeopardizing the tight connection in Seattle for the Tokyo-bound flight.</p>
+<p>Faced with a missed connection, people defaulted to save-thyself mode.</p>
+<p>The travel group split, choosing two very different paths to solve the same problem:</p>
+<ol type="1">
+<li><p><strong>The San Francisco Dash:</strong> Fearing they would miss the only morning flight to Japan, some in our group scrambled to reroute through San Francisco (SFO) on a morning connection, hoping to catch a Tokyo-bound flight from there. They probably spent their morning sprinting through terminals, they were the ones with the travel miles and the business seat to occupy.</p></li>
+<li><p><strong>The LAX Detour:</strong> I chose a different path. I decided to wait out the delay in Salt Lake City, booking an evening flight that routed through Los Angeles (LAX) and landed in Narita later that night. Besides, I was not worried about missing out on business seats, since I was travelling on coach tickets.</p></li>
+</ol>
+<p>On paper, my detour was a completely new, untested approach.</p>
+<p>It meant arriving late, off-schedule, and missing the initial evening gathering as well as taking the monorail through the south part of Tokyo.</p>
+</section>
+<section id="a-generational-inheritance" class="level3">
+<h3 class="anchored" data-anchor-id="a-generational-inheritance">A Generational Inheritance</h3>
+<p>That constraint that afforded the ultimate flexibility also works in life as well.</p>
+<p>My parents practiced it when they left North Korea as a war refugee.</p>
+<p>Whatever they could carry on their body and would fit in the boat.</p>
+<p>In my father’s case, whatever would fit in his military provided backpack.</p>
+<p>They repeated this practice when they boarded the flight from old Gimpo Airport to Anchorage Alaska.</p>
+<p>In this case, they took full advantage of checked bags, since they weren’t shipping anything to their new home in America.</p>
+<p>This practice of determining what is essential versus what is nice to have served my parent’s generation well, especially when one had to rely on the strength of one’s back.</p>
+<p>Now that we have much more than we could ever consume. Perhaps it would be a good test to plan a séjour to a faraway destination and see how many carry-on bags and back packs would be needed</p>
+<p>and then ask:</p>
+<blockquote class="blockquote">
+<p><em>Are you controlling what you carry, or is what you carry controlling you?</em></p>
+</blockquote>
+<p><img src="images/20260615_163120.jpg" class="img-fluid"></p>
 
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create data frame of locations</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>locations <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"Salt Lake City (SLC)"</span>, <span class="st">"Honolulu (HNL)"</span>),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">lat =</span> <span class="fu">c</span>(<span class="fl">40.7608</span>, <span class="fl">21.3069</span>),</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">lon =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">111.8910</span>, <span class="sc">-</span><span class="fl">157.8583</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create leaflet map</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>(locations) <span class="sc">%&gt;%</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addMarkers</span>(</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> <span class="sc">~</span>lon,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> <span class="sc">~</span>lat,</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">popup =</span> <span class="sc">~</span>name</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addPolylines</span>(</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> locations<span class="sc">$</span>lon,</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> locations<span class="sc">$</span>lat,</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"blue"</span>,</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">weight =</span> <span class="dv">2</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-f5107b81cb3de7b22fba" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-f5107b81cb3de7b22fba">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[40.7608,21.3069],[-111.891,-157.8583],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Salt Lake City (SLC)","Honolulu (HNL)"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addPolylines","args":[[[[{"lng":[-111.891,-157.8583],"lat":[40.7608,21.3069]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"blue","weight":2,"opacity":0.5,"fill":false,"fillColor":"blue","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[21.3069,40.7608],"lng":[-157.8583,-111.891]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
