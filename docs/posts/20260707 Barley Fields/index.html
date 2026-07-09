@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="DK">
-<meta name="dcterms.date" content="2026-07-06">
+<meta name="dcterms.date" content="2026-07-07">
 
-<title>Complimentary Lives – Selected Thoughts</title>
+<title>Barley Fields – Selected Thoughts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -115,9 +144,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Complimentary Lives</h1>
+      <h1 class="title">Barley Fields</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">complementary</div>
+                <div class="quarto-category">memories</div>
+                <div class="quarto-category">ideals</div>
               </div>
                   </div>
   </div>
@@ -135,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 6, 2026</p>
+        <p class="date">July 7, 2026</p>
       </div>
     </div>
     
@@ -154,28 +184,39 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>My parents were born nearly a century ago, and their lives were a blend of the contemporary and the deeply traditional.</p>
-<p>Over nine decades, their experiences spanned two continents, a clash of multiple ideologies (colonialism, communism, civil wars, dictatorship, and democracy), and three languages.</p>
-<p>Yet, for all their global experiences, one of the most enduring traits of their life was how they communicated—or rather, how they chose never to offer praise.</p>
-<p>They rarely expressed gratitude or gave compliments to one another, even in private, as if putting their exact feelings into words might somehow cheapen them.</p>
-<p>But we always knew the appreciation was there.</p>
-<p><img src="images/20260706_074616.jpg" class="img-fluid"></p>
-<p>When I think of their style of love, their relationship mirrored Golde and Tevye from <em>Fiddler on the Roof</em>.</p>
-<p>Theirs was an arranged marriage, orchestrated by older family members who judged their characters and decided they were complementary.</p>
-<p>Just like the iconic couple on stage, their marriage was built not on romance, but on shared responsibility, mutual respect developed over decades, a fierce commitment to family and faith, and a quiet, enduring love.</p>
-<p>It was this profound sense of dynamic balance that lingered in my mind after their passing, when I read a declaration from the Vatican. A passage from the Holy See Press Office contained these words:</p>
+<p>There is no moment in sports quite like the singing of the national anthem.</p>
+<p>Whether it’s a quadrennial tournament or an international match, the scene is the same: two teams standing poised, hopeful, and seemingly invincible.</p>
+<p>For a brief moment, they embody the unity, purpose, and ideals of their respective nations and the sportsmanship of the game.</p>
+<p>But the second kickoff happens, that pristine image vanishes, and everything falls apart.</p>
+<p>I was reminded of this delicate balance between worldly division and loyalty and higher unity when an international visitor from Japan sang a traditional Korean song.</p>
+<p><img src="images/20260603_185649~3.jpg" class="img-fluid"></p>
+<hr>
+<p>Once, a representative from Tokyo, Japan came to Taegu, Korea.</p>
+<p>At the time, our area was designated as the North Asia region, encompassing Korea, Japan, and the islands of Micronesia, with its headquarters in Tokyo.</p>
+<p>Because we were living 300 kilometers southeast of Seoul, we rarely saw international visitors.</p>
+<p>On this particular visit, during the Saturday evening session, the speaker opened up about his family history, specifically mentioning that his uncle was Korean.</p>
+<p>He told us that his uncle would often sing a Korean song, and then he did something unexpected: he asked if he could sing that song to us, and invited the congregation to join in the singing.</p>
+<p>보리밭 사잇길로 걸어가면 뉘 부르는 소리가 있어 발을 멈춘다. 옛 생각이 외로워 휘파람 불면 고운 노래 귓가에 들려온다. 돌아보면 아무도 뵈이지 않고 저녁노을 빈 하늘만 눈에 차누나.</p>
 <blockquote class="blockquote">
-<p>Another prominent aspect of gender theory is that it intends to deny the greatest possible difference that exists between living beings: sexual difference. This foundational difference is not only the greatest imaginable difference but is also the most beautiful and most powerful of them. In the male-female couple, this difference achieves the most marvelous of reciprocities. It thus becomes the source of that miracle that never ceases to surprise us: the arrival of new human beings in the world.</p>
+<p><em>As I walk the path between the swaying barley,</em> <em>A distant voice seems softly calling me;</em> <em>I pause and listen.</em> <em>When lonely memories stir, I whistle to the wind,</em> <em>And a gentle song comes drifting to my ear.</em> <em>I turn around—there is no one there.</em> <em>Only the empty evening sky,</em> <em>Filled with the glow of the setting sun.</em></p>
 </blockquote>
-<p>— Declaration of the Dicastery for the Doctrine of the Faith “Dignitas Infinita” on Human Dignity, 08.04.2024<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<p><img src="images/20260702_210323.jpg" class="img-fluid"></p>
-<p>My parents did not agree on all matters, but they were always helpful and supportive on critical matters. They lived out that marvelous reciprocity every day, ultimately fulfilling the main purpose of their mission on this earth.</p>
-<p>In the words of that Declaration:</p>
-<blockquote class="blockquote">
-<p>This foundational difference is not only the greatest imaginable difference but is also the most beautiful and most powerful of them.</p>
-</blockquote>
-<p>Thank you, Mom and Dad, for your complementary, powerful—and complimentary, beautiful—life.</p>
-<p><img src="images/20260706_080941.jpg" class="img-fluid"></p>
+<p>The speaker stated that he didn’t realize dual meaning of words when he was young, but the lyrics of <em>The Barley Field</em> (보리밭) described more than just a longing for a lost home or a bygone memory.</p>
+<p>They pointed to a higher sphere—a deeper, universal home that we all aspire to.</p>
+<p><img src="images/IMG_5382.JPG" class="img-fluid"></p>
+<hr>
+<p>Decades later, a modern algorithm directed me to a video of young people singing on a popular streaming app.</p>
+<p>The group consisted of thirty individuals from seven western states of the United States, as well as the Philippines, and native Koreans.</p>
+<p>All serving as representatives of Christ in Korea, this group sang that exact same song, <em>The Barley Field</em> (<span class="math inline">\(보리밭\)</span>).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Coming from them, those same lyrics carried a higher, more nuanced message.<br>
+</p>
+<p>It was a reaffirming message that they possessed the gospel teachings capable of not only taking people back to their true home, but uniting them with their loved ones once more.<br>
+</p>
+<p>As they sang beautifully as a unit, I felt a deep reassurance that these sacred ideals will not only continue, but grow.</p>
+<p>The players who sang their national anthems tried their utmost to represent the ideals of their nations and their sport.</p>
+<p>Likewise, these young singers—who may not yet fully grasp the deep cultural weight of these Korean words or their long-term impact—stood and testified through music.</p>
+<p>Using their talents, and through their voices, they revealed the true meaning of finding our way home, and the joy of bringing others along with us.</p>
+<p>Thank you to the young people of today. Bravo.</p>
+<p><img src="images/20260708_201840.jpg" class="img-fluid"></p>
 
 
 
@@ -183,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2024/04/08/240408c.html<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>https://www.youtube.com/watch?v=k86JOTmhaJI&amp;t=207s<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
