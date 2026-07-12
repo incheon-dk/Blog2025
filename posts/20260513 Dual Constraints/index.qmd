@@ -8,7 +8,7 @@ categories: [constant]
 
 In my current home, there are two windows that look out over the backyard.
 
-They function as two 85-inch\^(\~216 cm), measured diagonally, big screens set up in portrait mode, offering a resolution that no digital display has yet managed to replicate.
+They function as two 85-inch(\~216 cm), measured diagonally, big screens set up in portrait mode, offering a resolution that no digital display has yet managed to replicate.
 
 Depending on the choice of the screen door, the screen mode shifts from translucent to transparent, but the resolution of the scene remains unlimited.
 

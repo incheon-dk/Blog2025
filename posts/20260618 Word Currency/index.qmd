@@ -1,9 +1,8 @@
 ---
-title: "Weighty Words"
+title: "Weightier Words"
 author: "DK"
 date: "2026-06-18"
-draft: yes
-categories: [understanding]
+categories: [understanding, foundation]
 ---
 
 When I arrived in Maryland from Korea as a child, I was placed into the fifth grade.
@@ -26,7 +25,7 @@ I wasn't just learning a language; I was filling my mind with principles that wo
 
 ------------------------------------------------------------------------
 
-The school I attended, Springhill Lake Elementary, had no ESL program for second-language learners because, quite simply, there were no other students like me.
+The school I attended, **Springhill Lake Elementary**, had no ESL program for second-language learners because, there were no other students like me.
 
 Desperate to put me somewhere useful, the school partitioned off a small corner of the classroom.
 
@@ -40,7 +39,7 @@ The antidote to my isolation arrived in the form of a volunteer: Mrs. Johnson, t
 
 She didn't use mechanical tools or linguistic shortcuts. Instead, she sat with me and read books—mainly reading *to* me.
 
-Her voice and undivided attention provided a refreshing sanctuary from children's television programs and mechanical devices that were substitues and used to fill my days at school.
+Her voice and undivided attention provided a refreshing sanctuary from children's television programs and mechanical devices that were substitutes and used to fill my days at school.
 
 ------------------------------------------------------------------------
 
@@ -56,6 +55,8 @@ I devoured them and memorizing key events and its heroes.
 
 Looking back, my true curriculum during those first few months in America was forged by a very specific coalition: the patient reading sessions with Mrs. Johnson, the extended support of a church community, the dedication of my parents and sisters, and the ancient stories inside those volume of books in Korean.
 
+![](images/20260703_055356.jpg)
+
 ------------------------------------------------------------------------
 
 By modern standards, these resources were scarce and hardly adequate.
@@ -66,4 +67,6 @@ Because I was denied the noisy, passing memes and cultural trends of the day, I 
 
 They established an intellectual and spiritual bedrock that I have visited over and over again throughout my life.
 
-It taught me early that the strength of a life is not built on the shifting sands of what is momentarily popular, but on the quiet, deliberate practice of absorbing things that endure—like reading together from books that have not only withstood the passage of time, but have also allowed people to endure and overcome.
+It taught me early that the strength of a life is on the quiet, deliberate practice of absorbing things that endure—like reading together from books that have not only withstood the passage of time, but have also allowed people to endure and overcome.
+
+![](images/20260702_205858.jpg)

@@ -1,0 +1,41 @@
+---
+title: "Encore une fois"
+author: "DK"
+date: "2026-07-08"
+draft: yes
+categories: [understanding]
+---
+
+In the early days of hip-hop in Korea, quite a few tracks featured a distinct, mysterious voice sampling the exact same phrase:
+
+> *"Mesdames, messieurs, le disc-jockey Sash! est de retour."*
+
+Back then, I had no idea what the words were nor what it meant.
+
+To my ears, it sounded like something an alien might say with some deep meaning.
+
+Recently, using an AI tool to track it down the artist, the song and the intro, I finally learned that the line was originally recorded for the dance track *Encore une fois* (One More Time). And its grand, mysterious meaning?
+
+> *"Ladies and gentlemen, DJ Sash! is back."*
+
+Discovering that it was just a standard club intro was a letdown after decades of expecting something monumental.
+
+Yet, it serves as a reminder of how we approach and learn from the world.
+
+So many seemingly complex or intimidating things in life turn out to be incredibly simple once they are properly tokenized, translated, and understood.
+
+------------------------------------------------------------------------
+
+As used in the AI model, tokenization is used by the model to understand by dividing and conquering. That is, in the case of the introductory phrase, breaking down the sentence into manageable pieces
+
+**le disc-jockey Sash! est de retour**. is tokenized by an AI into four separate tokens.
+
+\[le, disc-jocky, sash, est, de, retour\], for example.
+
+Then those tokens are translated into English as,
+
+\["DJ", "Sash", "!", "is back"\]
+
+---
+
+Importance of packaging, especially foreign sounding.
