@@ -21,7 +21,7 @@ I am still figuring that part out.
 
 ![](images/20260702_124137.jpg)
 
----
+------------------------------------------------------------------------
 
 For a long time, I operated under an implicit assumption: whether because of my position, my role, or simply my age, I felt an obligation to be the solution provider. When someone brought a problem to me, my instinct was to solve it.
 
@@ -41,7 +41,7 @@ It’s the person who helps you ask the right questions.
 
 ![](images/20260708_201907.jpg)
 
----
+------------------------------------------------------------------------
 
 Artificial Intelligence can now provide instant, ready-made answers on almost any topic conceivable. Many of its answers are far more complete and structured than the ones I gave earlier in my life.
 
