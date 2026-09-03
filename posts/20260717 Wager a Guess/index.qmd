@@ -1,5 +1,5 @@
 ---
-title: "Wage a Guess"
+title: "Hazard a Guess"
 author: "DK"
 date: "2026-07-18"
 categories: [wager]
