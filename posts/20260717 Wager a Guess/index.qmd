@@ -1,5 +1,5 @@
 ---
-title: "Guess Wager"
+title: "Wage a Guess"
 author: "DK"
 date: "2026-07-18"
 categories: [wager]
@@ -9,7 +9,7 @@ Next month marks exactly fifty-five years since Dallin H. Oaks, then the newly i
 
 [^1]: Gambling, https://speeches.byu.edu/talks/dallin-h-oaks/gambling/, 18 August 1971
 
-Of all the topics he could have chosen, across vast secular and religious landscapes, he selected one that felt remarkably foreign to his audience: gambling.
+Of all the topics he could have chosen, across secular and religious, he selected one that felt foreign to his audience: gambling.
 
 In that address, he warned of three distinct moral weaknesses that gambling introduces into a society.
 
